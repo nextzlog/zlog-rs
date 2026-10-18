@@ -1,0 +1,104 @@
+# 日本語。各行は `key = text`。{0}, {1} はプログラムが埋める。
+
+menu.file = ファイル
+menu.file.open = 新規 / 開く...
+menu.file.save_as = 名前を付けて保存...
+menu.file.import = インポート
+menu.file.export = エクスポート
+menu.file.exit = 終了
+menu.windows = ウインドウ
+menu.language = 言語
+menu.help = ヘルプ
+menu.help.about = zLog について
+about.extensions = 組み込まれている拡張機能:
+toolbar.save = 保存
+
+window.score = スコア
+window.multi = マルチ
+
+column.status = 
+column.date = 日付
+column.time = 時刻
+column.call = コール
+column.rst = RST
+column.sent = 送信
+column.rcvd = 受信
+column.multi = マルチ
+column.band = MHz
+column.mode = モード
+column.power = P
+column.op = OP
+column.memo = 備考
+column.points = 点
+
+score.band = MHz
+score.qsos = 交信数
+score.points = 得点
+score.multi = マルチ
+score.total = 合計
+score.score = 総得点
+
+multi.search = 検索
+
+edit.title = QSO の編集
+edit.rst = RST 送信 / 受信
+edit.invalid = 無効
+delete.confirm = {0} を削除しますか?
+button.ok = OK
+button.cancel = キャンセル
+
+menu_form.title = zLog Menu
+menu_form.contest = コンテスト
+menu_form.search = 検索
+menu_form.recent = 最近使った
+menu_form.mode = モード
+menu_form.callsign = コールサイン
+menu_form.operator = オペレータ
+menu_form.prov = 都府県支庁
+menu_form.city = 市郡区
+menu_form.power = 電力
+menu_form.power_by_band = バンド別
+menu_form.coeff = 局種係数
+menu_form.file = ファイル名
+menu_form.need_file = ファイル名を入力してください。
+menu_form.bad_coeff = 局種係数には数値を入力してください。
+
+error.no_contest = コンテストが見つかりません。
+status.qso_count = {0} QSO
+status.save_failed = 保存に失敗しました: {0}
+status.imported = {0} 件の QSO をインポートしました
+status.import_failed = インポートに失敗しました: {0}
+status.exported = {0} にエクスポートしました
+status.export_failed = エクスポートに失敗しました: {0}
+status.dupe = {0}  {1} MHz {2} {3}  {4}  DUPE
+status.no_callsign = コールサインが入力されていません
+status.truncated = ファイルがレコードの途中で終わっていたため、末尾の {0} バイトを読み飛ばしました
+status.invalid_number = ナンバーが不正です
+status.needed = このバンドでは未交信です。
+status.worked = このバンドでは交信済みです。
+status.worked_on =  交信済み: {0}
+status.logged = {0} を記録しました
+status.logged_dupe = {0} を DUPE として記録しました
+status.logged_new_multi = {0} を記録しました。ニューマルチ {1}
+status.deleted = {0} を削除しました
+
+menu.settings = 設定
+menu.settings.options = オプション...
+window.rig = リグ
+options.title = オプション
+options.station = 自局
+options.rig = リグ
+options.power_per_band = バンド別の電力
+rig.model = 機種
+rig.port = ポート
+rig.baud = 通信速度 (bps)
+rig.simulator = シミュレータ
+rig.connect = 接続
+rig.disconnect = 切断
+rig.not_connected = 未接続
+rig.vfo_a = VFO A (kHz)
+rig.vfo_b = VFO B (kHz)
+rig.mode = モード
+rig.sim.dial = ダイヤル (kHz)
+rig.sim.mode = モードキー
+rig.sim.power = 電源

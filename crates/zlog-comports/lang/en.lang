@@ -1,0 +1,4 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Serial ports
+rescan = Rescan
+none = No serial ports

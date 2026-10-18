@@ -1,0 +1,11 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Sporadic E
+refresh = Refresh
+head.station = Station
+head.es = Es
+head.latest = Latest Es
+head.fxes = fxEs
+signal.ongoing = ongoing
+signal.likely = likely
+signal.quiet = none
+credit = Data: NICT ionosondes (automatic, may contain errors)

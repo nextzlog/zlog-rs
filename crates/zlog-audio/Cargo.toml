@@ -1,0 +1,10 @@
+[package]
+name = "zlog-audio"
+description = "Audio input from the computer's sound devices, for decoders."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+cpal = "0.18"

@@ -1,0 +1,6 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = 地図
+areas = {0} 地域
+unknown = (表にないコード {0})
+background = 背景地図 (OSM)
+attribution = 出典: 国土交通省国土数値情報（行政区域データ）を加工して作成 (via jg1vpp/qth.zlog.org, MIT)

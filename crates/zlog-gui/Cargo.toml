@@ -1,0 +1,58 @@
+[package]
+name = "zlog-gui"
+description = "zLog-style contest logging window for macOS and Windows."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zlog-gui"
+path = "src/main.rs"
+
+[features]
+# Each extension crate is one feature; choose a build with --no-default-features --features ...
+default = ["score", "general", "jarl", "japan", "world", "qxsl", "prefix", "maplot", "es", "comports", "latest", "soumu", "cw"]
+general = ["dep:zlog-general"]
+score = ["dep:zlog-score"]
+jarl = ["dep:zlog-jarl"]
+japan = ["dep:zlog-japan"]
+world = ["dep:zlog-world"]
+qxsl = ["dep:zlog-qxsl"]
+prefix = ["dep:zlog-prefix"]
+maplot = ["dep:zlog-maplot"]
+es = ["dep:zlog-es"]
+comports = ["dep:zlog-comports"]
+latest = ["dep:zlog-latest"]
+soumu = ["dep:zlog-soumu"]
+cw = ["dep:zlog-cw"]
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+zlog-general = { path = "../zlog-general", optional = true }
+zlog-score = { path = "../zlog-score", optional = true }
+zlog-jarl = { path = "../zlog-jarl", optional = true }
+zlog-japan = { path = "../zlog-japan", optional = true }
+zlog-world = { path = "../zlog-world", optional = true }
+zlog-qxsl = { path = "../zlog-qxsl", optional = true }
+zlog-prefix = { path = "../zlog-prefix", optional = true }
+zlog-maplot = { path = "../zlog-maplot", optional = true }
+zlog-es = { path = "../zlog-es", optional = true }
+zlog-comports = { path = "../zlog-comports", optional = true }
+zlog-latest = { path = "../zlog-latest", optional = true }
+zlog-soumu = { path = "../zlog-soumu", optional = true }
+zlog-cw = { path = "../zlog-cw", optional = true }
+zlog-ui = { path = "../zlog-ui" }
+eframe = "0.37"
+egui = "0.37"
+egui_extras = "0.37"
+rfd = "0.17"
+chrono = "0.4"
+dirs = "7"
+zlog-rig = { path = "../zlog-rig", features = ["serial"] }
+zlog-rig-cat = { path = "../zlog-rig-cat" }
+zlog-rig-sim = { path = "../zlog-rig-sim" }
+
+[dev-dependencies]
+zlog-jarl = { path = "../zlog-jarl" }
+zlog-prefix = { path = "../zlog-prefix" }

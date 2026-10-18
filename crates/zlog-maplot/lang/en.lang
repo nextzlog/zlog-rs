@@ -1,0 +1,7 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Map
+areas = {0} areas
+unknown = ({0} codes not in the table)
+background = Background (OSM)
+# The terms of use of the boundary data require the Japanese credit verbatim.
+attribution = 出典: 国土交通省国土数値情報（行政区域データ）を加工して作成 (Source: processed from MLIT National Land Numerical Information, administrative areas; via jg1vpp/qth.zlog.org, MIT)

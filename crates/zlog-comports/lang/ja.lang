@@ -1,0 +1,4 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = COM ポート一覧
+rescan = 再検出
+none = シリアルポートはありません

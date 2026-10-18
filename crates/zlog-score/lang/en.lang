@@ -1,0 +1,10 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+score.title = Score
+multi.title = Multipliers
+head.mhz = MHz
+head.qsos = QSOs
+head.points = Points
+head.multi = Multi
+head.total = Total
+head.score = Score
+search = Go

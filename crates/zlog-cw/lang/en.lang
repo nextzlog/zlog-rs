@@ -1,0 +1,9 @@
+title = CW decoder
+device = Input
+default_device = Default device
+start = Start
+stop = Stop
+reset = Clear
+not_running = Not listening
+no_signals = No signals yet
+error = Audio input failed: {0}

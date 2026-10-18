@@ -1,0 +1,27 @@
+[package]
+name = "zlog-cli"
+description = "Command-line front end for zLog."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zlog"
+path = "src/main.rs"
+
+[features]
+default = ["general", "jarl", "japan", "world", "qxsl"]
+general = ["dep:zlog-general"]
+jarl = ["dep:zlog-jarl"]
+japan = ["dep:zlog-japan"]
+world = ["dep:zlog-world"]
+qxsl = ["dep:zlog-qxsl"]
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+zlog-general = { path = "../zlog-general", optional = true }
+zlog-jarl = { path = "../zlog-jarl", optional = true }
+zlog-japan = { path = "../zlog-japan", optional = true }
+zlog-world = { path = "../zlog-world", optional = true }
+zlog-qxsl = { path = "../zlog-qxsl", optional = true }

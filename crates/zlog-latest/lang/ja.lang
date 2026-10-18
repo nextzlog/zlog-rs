@@ -1,0 +1,7 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = 更新の確認
+current = 現在の版: {0}
+no_repository = このビルドには確認先のリポジトリがありません
+check = 確認する
+newer = 新しい版があります: {0}
+up_to_date = 最新です ({0})

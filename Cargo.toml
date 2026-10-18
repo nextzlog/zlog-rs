@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["crates/zlog-core", "crates/zlog-jarl", "crates/zlog-cli", "crates/zlog-gui", "crates/zlog-prefix", "crates/zlog-ui", "crates/zlog-maplot", "crates/zlog-scoring", "crates/zlog-general", "crates/zlog-net", "crates/zlog-comports", "crates/zlog-latest", "crates/zlog-es", "crates/zlog-soumu", "crates/zlog-score", "crates/zlog-rig", "crates/zlog-rig-cat", "crates/zlog-rig-sim", "crates/zlog-modem", "crates/zlog-audio", "crates/zlog-cw", "crates/zlog-qxsl", "crates/zlog-japan", "crates/zlog-world"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false

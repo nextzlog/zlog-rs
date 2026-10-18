@@ -1,0 +1,104 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+
+menu.file = File
+menu.file.open = New / Open...
+menu.file.save_as = Save As...
+menu.file.import = Import
+menu.file.export = Export
+menu.file.exit = Exit
+menu.windows = Windows
+menu.language = Language
+menu.help = Help
+menu.help.about = About zLog
+about.extensions = Extensions linked into this build:
+toolbar.save = Save
+
+window.score = Score
+window.multi = Multipliers
+
+column.status = 
+column.date = Date
+column.time = Time
+column.call = Call
+column.rst = RST
+column.sent = Sent
+column.rcvd = Rcvd
+column.multi = Mult
+column.band = MHz
+column.mode = Mode
+column.power = P
+column.op = OP
+column.memo = Memo
+column.points = Pts
+
+score.band = MHz
+score.qsos = QSOs
+score.points = Points
+score.multi = Multi
+score.total = Total
+score.score = Score
+
+multi.search = Go
+
+edit.title = QSO Data
+edit.rst = RST sent / rcvd
+edit.invalid = Invalid
+delete.confirm = Delete {0}?
+button.ok = OK
+button.cancel = Cancel
+
+menu_form.title = zLog Menu
+menu_form.contest = Contest
+menu_form.search = Search
+menu_form.recent = Recent
+menu_form.mode = Mode
+menu_form.callsign = Callsign
+menu_form.operator = Operator
+menu_form.prov = Prov
+menu_form.city = City
+menu_form.power = Power
+menu_form.power_by_band = By band
+menu_form.coeff = Score coeff.
+menu_form.file = File name
+menu_form.need_file = Enter a file name.
+menu_form.bad_coeff = Score coeff. must be a number.
+
+error.no_contest = No such contest.
+status.qso_count = {0} QSOs
+status.save_failed = Save failed: {0}
+status.imported = {0} QSOs imported
+status.import_failed = Import failed: {0}
+status.exported = Exported to {0}
+status.export_failed = Export failed: {0}
+status.dupe = {0}  {1} MHz {2} {3}  {4}  DUPE
+status.no_callsign = Callsign not entered
+status.truncated = The file ended in the middle of a record; {0} bytes were left out
+status.invalid_number = Invalid number
+status.needed = Needed on this band.
+status.worked = Worked on this band.
+status.worked_on =  Worked on: {0}
+status.logged = {0} logged
+status.logged_dupe = {0} logged as DUPE
+status.logged_new_multi = {0} logged. New multiplier {1}
+status.deleted = {0} deleted
+
+menu.settings = Settings
+menu.settings.options = Options...
+window.rig = Rig
+options.title = Options
+options.station = Station
+options.rig = Rig
+options.power_per_band = Power per band
+rig.model = Model
+rig.port = Port
+rig.baud = Speed (bps)
+rig.simulator = Simulator
+rig.connect = Connect
+rig.disconnect = Disconnect
+rig.not_connected = Not connected
+rig.vfo_a = VFO A (kHz)
+rig.vfo_b = VFO B (kHz)
+rig.mode = Mode
+rig.sim.dial = Dial (kHz)
+rig.sim.mode = Mode key
+rig.sim.power = Power on

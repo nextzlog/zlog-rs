@@ -1,0 +1,15 @@
+[package]
+name = "zlog-cw"
+description = "CW decoding with rumo, and a window like CW4ISR showing every station heard."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+rumo = { git = "https://github.com/nextzlog/rumo", rev = "9b2c443b04a5d87cb908715c08a41a3991f2837c" }
+zlog-audio = { path = "../zlog-audio" }
+zlog-core = { path = "../zlog-core" }
+zlog-modem = { path = "../zlog-modem" }
+zlog-ui = { path = "../zlog-ui" }

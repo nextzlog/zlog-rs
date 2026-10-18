@@ -1,0 +1,13 @@
+[package]
+name = "zlog-prefix"
+description = "Country or area of the worked station from its callsign prefix (port of ZyLO prefix)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+
+[dev-dependencies]
+zlog-general = { path = "../zlog-general" }

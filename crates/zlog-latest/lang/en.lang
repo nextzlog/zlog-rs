@@ -1,0 +1,7 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Updates
+current = This version: {0}
+no_repository = This build has no repository to check
+check = Check
+newer = New version: {0}
+up_to_date = Up to date ({0})

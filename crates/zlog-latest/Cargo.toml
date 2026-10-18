@@ -1,0 +1,14 @@
+[package]
+name = "zlog-latest"
+description = "Check for a newer release on GitHub (port of ZyLO latest)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+serde_json = "1"
+zlog-net = { path = "../zlog-net" }
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

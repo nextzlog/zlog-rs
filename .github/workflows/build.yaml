@@ -1,0 +1,56 @@
+name: build
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - run: sudo apt-get update && sudo apt-get install -y libasound2-dev
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets -- -D warnings
+      - run: cargo test --workspace
+
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin, x86_64-apple-darwin
+      - run: cargo build --release -p zlog-gui --target aarch64-apple-darwin
+      - run: cargo build --release -p zlog-gui --target x86_64-apple-darwin
+      - run: |
+          mkdir dist
+          lipo -create -output dist/zlog-gui \
+            target/aarch64-apple-darwin/release/zlog-gui \
+            target/x86_64-apple-darwin/release/zlog-gui
+          cp LICENSE README.md dist/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zlog-rs-macos-universal
+          path: dist
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo build --release -p zlog-gui
+      - run: |
+          mkdir dist
+          copy target\release\zlog-gui.exe dist\
+          copy LICENSE dist\
+          copy README.md dist\
+        shell: cmd
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zlog-rs-windows
+          path: dist

@@ -1,0 +1,7 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+caption.ja0in = ALL JA0 コンテスト (JA0)
+caption.ja0out = ALL JA0 コンテスト (Others)
+caption.nyp = NEW YEAR PARTY
+caption.user = ユーザー定義コンテスト
+group.japan = 国内
+group.local = ローカル
