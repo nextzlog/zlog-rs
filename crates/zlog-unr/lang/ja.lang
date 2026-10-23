@@ -1,0 +1,13 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = 送信ナンバーの一括修正
+menu = 送信ナンバーの一括修正...
+menu.tip = 送信ナンバーの一括修正 — 多くの QSO の送信ナンバーをまとめて書き換えます
+low = 1200 MHz 以下
+high = 2400 MHz 以上
+band = 対象の QSO
+all = 全バンド
+power_code = バンドごとの電力コードを付ける
+example = 例: {0} は {1} になります
+count = {0} 件の QSO を書き換えます
+apply = 修正する
+cancel = キャンセル

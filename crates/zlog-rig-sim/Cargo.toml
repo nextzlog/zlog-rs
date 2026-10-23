@@ -1,0 +1,13 @@
+[package]
+name = "zlog-rig-sim"
+description = "A simulated transceiver for developing and testing rig control without a rig."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+zlog-rig = { path = "../zlog-rig" }
+
+[dev-dependencies]
+zlog-rig-cat = { path = "../zlog-rig-cat" }

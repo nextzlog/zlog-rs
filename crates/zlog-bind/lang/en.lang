@@ -1,0 +1,17 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Shortcuts
+note = Press Record, then the keys for the command (Esc cancels). A shortcut needs Ctrl, Alt or Cmd, or is a function key, as other keys are typed into the fields. Keys the entry row and the log keep (Enter, Space, the F keys, Ctrl+Z and so on), also with Shift or Alt added, and keys another command has, are refused. Ctrl+Shift+S beside Ctrl+S is fine: the shortcut with more keys is tried first.
+reset = Reset all
+reset.tip = Give every command its own shortcut again
+record = Record
+recording = Press keys...
+record.tip = Press the keys for this command next
+clear = None
+clear.tip = Take the shortcut away
+default = Default
+default.tip = Its own shortcut again
+none = not set
+refused.reserved = {0} is kept by the entry row or the log.
+refused.taken = {0} is already the shortcut of {1}.
+refused.plain = {0} has no Ctrl, Alt or Cmd and is no function key; it would be typed into the fields.
+refused.default = Its own shortcut {0} is now the shortcut of {1}.

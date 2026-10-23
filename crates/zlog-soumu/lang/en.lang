@@ -1,0 +1,12 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Look up licence
+look_up = Look up licence
+none = No station found
+class.fixed = fixed
+class.mobile = mobile
+class.amateur = Amateur class {0}, {1}
+mic.name = MIC Radio Use Website Web-API
+# The terms of the Web-API require this notice in Japanese, verbatim.
+mic.notice = このサービスは、総務省 電波利用ホームページのWeb-API機能を利用して取得した情報をもとに作成していますが、サービスの内容は総務省によって保証されたものではありません。
+toolbar = Licence
+toolbar.tip = Licence — the callsign being entered in the licence data of MIC

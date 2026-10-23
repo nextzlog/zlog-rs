@@ -1,0 +1,12 @@
+[package]
+name = "zlog-ops"
+description = "Operators of a multi-op station: the operator list, their power and the entry row's operator (port of zLog's operator list)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

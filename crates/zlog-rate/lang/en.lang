@@ -1,0 +1,55 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+# The zaq.* and zaf.* texts go into the analysis text; zaq.total and
+# zaq.cumulative are 5 columns wide, zaf.total 6, as the Japanese ones.
+title = QSO rate
+tab.graph = Graph
+tab.table = Table
+tab.targets = Targets
+tab.analyze = Analysis
+last10 = Last 10 QSOs
+last100 = Last 100 QSOs
+rate = {0} QSOs/hr
+max = max {0} QSOs/hr
+optime = Operating time {0}
+show.first = Show first
+show.current = Show current
+show.last = Show last
+hours = hours
+style.original = Total
+style.band = By band
+style.range = By range
+total = Total
+band = Band
+adjust = Round up to {0}
+from_log = From a past log...
+clear = Clear
+show_cw = Show CW
+exclude_zero_points = Exclude 0 pts
+exclude_zero_hours = Exclude 0 QSO/h
+copy = Copy
+save = Save...
+zaq.title = <Time chart>
+zaq.sum = Sum
+zaq.total = Total
+zaq.cumulative = Cumul
+zaf.result = <Result>
+zaf.head = Band       QSOs     Points   Multi
+zaf.head2 = Band       QSOs     Points   Multi   Multi2
+zaf.total = Totals
+zaf.times = x
+zaf.equals = =
+zaf.time = <QSOs per hour>
+zaf.time_cw = <QSOs per hour>  (CW in brackets)
+toolbar = Rate
+toolbar.tip = Rate — QSOs per hour, as figures and a graph
+table.result = Result
+table.per_hour = QSOs per hour
+table.per_hour_cw = QSOs per hour (CW in brackets)
+table.chart = Time chart
+table.hour = Hour
+table.qsos = QSOs
+table.points = Points
+table.multi = Multi
+table.multi2 = Multi2
+table.cumulative = Running total
+table.score = {0} points × {1} multipliers = {2}

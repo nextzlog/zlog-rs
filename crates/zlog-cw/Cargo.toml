@@ -1,0 +1,13 @@
+[package]
+name = "zlog-cw"
+description = "CW decoding: the CW4ISR window of the cw4i crate, filling the entry row with picked words."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+cw4i = { git = "https://github.com/nextzlog/cw4i", rev = "3d6930d7a4826462c34f2e7f3625ce6ef82e9bce", default-features = false }
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

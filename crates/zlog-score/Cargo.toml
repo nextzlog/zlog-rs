@@ -1,0 +1,12 @@
+[package]
+name = "zlog-score"
+description = "Score and multiplier windows, drawn from what the contest computed."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

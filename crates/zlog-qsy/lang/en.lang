@@ -1,0 +1,8 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = QSY indicator
+none = None
+qsy_ok = QSY OK
+count = QSY# {0}
+tx = TX#{0}
+toolbar = QSY
+toolbar.tip = QSY indicator — time left until the next band change and the band changes this hour

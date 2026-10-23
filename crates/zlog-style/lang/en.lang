@@ -1,0 +1,6 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Display
+theme = Theme
+theme.system = Follow the system
+theme.light = Light
+theme.dark = Dark

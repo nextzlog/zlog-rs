@@ -1,0 +1,11 @@
+[package]
+name = "zlog-net"
+description = "Background HTTP fetches and form submissions for extensions, so the window never waits on the network."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+encoding_rs = "0.8"
+ureq = "3"

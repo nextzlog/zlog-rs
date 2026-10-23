@@ -1,0 +1,10 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Find QSOs
+toolbar = Search
+toolbar.tip = Search — find QSOs by callsign, received number or remarks
+text = Find
+hint = Callsign, received number or remarks
+next = Next
+previous = Previous
+empty = Type what to find; Enter goes to the next QSO, Shift+Enter to the previous one.
+count = {0} QSOs found

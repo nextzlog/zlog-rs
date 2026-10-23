@@ -1,0 +1,11 @@
+[package]
+name = "zlog-qxsl"
+description = "Log file formats of qxsl (ADIF, Cabrillo, CTESTWIN, HAMLOG, JARL, QXML, zLog text) for zLog."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+qxsl = { git = "https://github.com/nextzlog/qxsl-rs", rev = "6b875b32cef7f52f93f78046e90262064e782ca7" }
+zlog-core = { path = "../zlog-core" }

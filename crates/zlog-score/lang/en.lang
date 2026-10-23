@@ -1,0 +1,12 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+score.title = Score
+multi.title = Multipliers
+score.tooltip = Score — QSOs, points and multipliers by band
+multi.tooltip = Multipliers — multipliers worked and still needed, by band
+head.mhz = MHz
+head.qsos = QSOs
+head.points = Points
+head.multi = Multi
+head.total = Total
+head.score = Score
+search = Go

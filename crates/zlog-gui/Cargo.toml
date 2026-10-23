@@ -1,0 +1,115 @@
+[package]
+name = "zlog-gui"
+description = "zLog-style contest logging window for macOS and Windows."
+version.workspace = true
+repository.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zlog-gui"
+path = "src/main.rs"
+
+[features]
+# Each extension crate is one feature; choose a build with --no-default-features --features ...
+default = ["open", "contests", "score", "base", "cfg", "rule-ja", "rule-dx", "qxsl", "map", "es", "ports", "update", "soumu", "cw", "check", "cluster", "scope", "keyer", "link", "rate", "summary", "jarl", "qth", "zylo", "ja6ycu", "ini", "search", "voice", "unr", "dc", "qsy", "so2r", "rtty", "ops", "undo", "entry", "edit", "style", "bind"]
+open = ["dep:zlog-open"]
+contests = ["open", "cfg", "zlog-cfg/window"]
+base = ["dep:zlog-rule"]
+score = ["dep:zlog-score"]
+cfg = ["dep:zlog-cfg"]
+rule-ja = ["dep:zlog-rule-ja", "cfg"]
+rule-dx = ["dep:zlog-rule-dx"]
+qth = ["dep:zlog-qth"]
+qsy = ["dep:zlog-qsy"]
+zylo = ["dep:zlog-zylo"]
+ja6ycu = ["dep:zlog-ja6ycu"]
+ini = ["dep:zlog-ini"]
+search = ["dep:zlog-search"]
+voice = ["dep:zlog-voice"]
+unr = ["dep:zlog-unr"]
+undo = ["dep:zlog-undo"]
+entry = ["dep:zlog-entry"]
+edit = ["dep:zlog-edit"]
+style = ["dep:zlog-style"]
+bind = ["dep:zlog-bind"]
+dc = ["dep:zlog-dc"]
+ops = ["dep:zlog-ops"]
+qxsl = ["dep:zlog-qxsl"]
+map = ["dep:zlog-map"]
+es = ["dep:zlog-es"]
+ports = ["dep:zlog-ports"]
+update = ["dep:zlog-update"]
+soumu = ["dep:zlog-soumu"]
+cw = ["dep:zlog-cw"]
+check = ["dep:zlog-check"]
+cluster = ["dep:zlog-cluster"]
+scope = ["dep:zlog-scope"]
+keyer = ["dep:zlog-keyer"]
+link = ["dep:zlog-link"]
+rate = ["dep:zlog-rate"]
+rtty = ["dep:zlog-rtty"]
+summary = ["dep:zlog-summary"]
+so2r = ["dep:zlog-so2r"]
+jarl = ["dep:zlog-jarl", "summary", "zlog-summary/jarl"]
+
+[dependencies]
+zlog-rule = { path = "../zlog-rule", optional = true }
+zlog-core = { path = "../zlog-core" }
+zlog-score = { path = "../zlog-score", optional = true }
+zlog-cfg = { path = "../zlog-cfg", optional = true }
+zlog-rule-ja = { path = "../zlog-rule-ja", optional = true }
+zlog-rule-dx = { path = "../zlog-rule-dx", optional = true }
+zlog-qth = { path = "../zlog-qth", optional = true }
+zlog-qsy = { path = "../zlog-qsy", optional = true }
+zlog-zylo = { path = "../zlog-zylo", optional = true }
+zlog-ja6ycu = { path = "../zlog-ja6ycu", optional = true }
+zlog-ini = { path = "../zlog-ini", optional = true }
+zlog-search = { path = "../zlog-search", optional = true }
+zlog-voice = { path = "../zlog-voice", optional = true }
+zlog-unr = { path = "../zlog-unr", optional = true }
+zlog-undo = { path = "../zlog-undo", optional = true }
+zlog-entry = { path = "../zlog-entry", optional = true }
+zlog-edit = { path = "../zlog-edit", optional = true }
+zlog-style = { path = "../zlog-style", optional = true }
+zlog-bind = { path = "../zlog-bind", optional = true }
+zlog-dc = { path = "../zlog-dc", optional = true }
+zlog-ops = { path = "../zlog-ops", optional = true }
+zlog-qxsl = { path = "../zlog-qxsl", optional = true }
+zlog-map = { path = "../zlog-map", optional = true }
+zlog-es = { path = "../zlog-es", optional = true }
+zlog-ports = { path = "../zlog-ports", optional = true }
+zlog-update = { path = "../zlog-update", optional = true }
+zlog-soumu = { path = "../zlog-soumu", optional = true }
+zlog-cw = { path = "../zlog-cw", optional = true }
+zlog-check = { path = "../zlog-check", optional = true }
+zlog-cluster = { path = "../zlog-cluster", optional = true }
+zlog-scope = { path = "../zlog-scope", optional = true }
+zlog-keyer = { path = "../zlog-keyer", optional = true }
+zlog-link = { path = "../zlog-link", optional = true }
+zlog-rate = { path = "../zlog-rate", optional = true }
+zlog-rtty = { path = "../zlog-rtty", optional = true }
+zlog-summary = { path = "../zlog-summary", optional = true }
+zlog-so2r = { path = "../zlog-so2r", optional = true }
+zlog-jarl = { path = "../zlog-jarl", optional = true }
+zlog-ui = { path = "../zlog-ui" }
+zlog-open = { path = "../zlog-open", optional = true }
+eframe = "0.37"
+fontdb = "0.23"
+egui = "0.37"
+egui_extras = "0.37"
+chrono = "0.4"
+dirs = "7"
+toml = "1"
+zlog-rig = { path = "../zlog-rig", features = ["serial"] }
+zlog-rig-cat = { path = "../zlog-rig-cat" }
+zlog-rig-sim = { path = "../zlog-rig-sim" }
+
+[dev-dependencies]
+# File dialogs never open in tests (`zlog_ui::dialog::set_test_pick`).
+zlog-ui = { path = "../zlog-ui", features = ["test-hooks"] }
+egui_kittest = { version = "0.37", features = ["eframe"] }
+zlog-net = { path = "../zlog-net" }
+zlog-cfg = { path = "../zlog-cfg" }
+zlog-rule-ja = { path = "../zlog-rule-ja" }

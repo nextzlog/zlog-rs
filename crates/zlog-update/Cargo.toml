@@ -1,0 +1,16 @@
+[package]
+name = "zlog-update"
+description = "Update zLog to the nightly build on GitHub."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+serde_json = "1"
+sha2 = "0.10"
+self-replace = "1.5"
+zlog-net = { path = "../zlog-net" }
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

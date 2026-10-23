@@ -1,0 +1,17 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = ショートカット
+note = 「記録」を押してから、そのコマンドに割り当てるキーを押します (Esc で取り消し)。入力欄に文字として入るキーを避けるため、ショートカットには Ctrl、Alt、Cmd のいずれかが必要です (F キーを除く)。入力欄やログが使うキー (Enter、Space、F キー、Ctrl+Z など。Shift や Alt を加えたものも含む) と、ほかのコマンドに割り当て済みのキーは使えません。Ctrl+S と Ctrl+Shift+S は併用できます (キーの多いほうが優先されます)。
+reset = すべて初期状態に戻す
+reset.tip = すべてのコマンドを元のショートカットに戻します
+record = 記録
+recording = キーを押す...
+record.tip = 次に押したキーをこのコマンドに割り当てます
+clear = なし
+clear.tip = ショートカットを外します
+default = 元に戻す
+default.tip = 元のショートカットに戻します
+none = 未設定
+refused.reserved = {0} は入力欄やログが使うキーです。
+refused.taken = {0} はすでに「{1}」のショートカットです。
+refused.plain = {0} には Ctrl、Alt、Cmd がなく F キーでもないため、入力欄に文字として入ってしまいます。
+refused.default = 元のショートカット {0} は現在「{1}」に割り当てられています。

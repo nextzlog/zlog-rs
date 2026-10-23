@@ -1,0 +1,74 @@
+name: build
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - run: sudo apt-get update && sudo apt-get install -y libasound2-dev
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets -- -D warnings
+      - run: cargo test --workspace
+      - run: cargo test --release -p zlog-gui -- --ignored
+
+  macos:
+    needs: test
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin, x86_64-apple-darwin
+      - run: cargo build --release -p zlog-gui --target aarch64-apple-darwin
+      - run: cargo build --release -p zlog-gui --target x86_64-apple-darwin
+      - run: |
+          scripts/macos-app.sh \
+            target/aarch64-apple-darwin/release/zlog-gui \
+            target/x86_64-apple-darwin/release/zlog-gui
+          ln -s /Applications dist/Applications
+          hdiutil create -volname "zLog RS" -srcfolder dist -ov -format UDZO zlog-rs.dmg
+          gh release create nightly --prerelease --title nightly --notes "Built from master." || true
+          gh release delete-asset nightly zlog-rs-macos.zip --yes || true
+          shasum -a 256 zlog-rs.dmg > zlog-rs.dmg.sha256
+          gh release upload nightly zlog-rs.dmg zlog-rs.dmg.sha256 --clobber
+
+  windows:
+    needs: test
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo build --release -p zlog-gui
+      - run: |
+          copy target\release\zlog-gui.exe zlog-rs.exe
+          gh release create nightly --prerelease --title nightly --notes "Built from master." || ver > nul
+          gh release upload nightly zlog-rs.exe --clobber
+        shell: cmd
+      - run: |
+          $sum = (Get-FileHash zlog-rs.exe -Algorithm SHA256).Hash.ToLower()
+          [IO.File]::WriteAllText("zlog-rs.exe.sha256", "$sum  zlog-rs.exe`n")
+          gh release upload nightly zlog-rs.exe.sha256 --clobber
+        shell: pwsh
+
+  version:
+    needs: [macos, windows]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          echo "$GITHUB_SHA" > version.txt
+          gh release upload nightly version.txt --clobber

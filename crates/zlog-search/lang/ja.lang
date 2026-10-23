@@ -1,0 +1,10 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = 交信を検索
+toolbar = 検索
+toolbar.tip = 検索 — コールサイン・受信ナンバー・備考で QSO を探します
+text = 検索する文字
+hint = コールサイン、受信ナンバー、備考
+next = 次へ
+previous = 前へ
+empty = 探す文字を入力してください。Enter で次の QSO、Shift+Enter で前の QSO へ移ります。
+count = {0} 件の QSO が見つかりました

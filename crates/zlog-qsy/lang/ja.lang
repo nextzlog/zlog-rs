@@ -1,0 +1,8 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = QSYインジケーター
+none = なし
+qsy_ok = QSY OK
+count = QSY# {0}
+tx = TX#{0}
+toolbar = QSY
+toolbar.tip = QSYインジケーター — 次にバンドを変えられるまでの時間と、この1時間のバンド変更回数

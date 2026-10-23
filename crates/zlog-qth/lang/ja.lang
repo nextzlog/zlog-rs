@@ -1,0 +1,8 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = ステータスバーに国・地域を表示
+tip = 入力中のコールサインの国・地域、大陸、ゾーンをステータスバーに表示します
+item = {0} · {1} · CQ {2} · ITU {3}
+item.tip = {0} ({1})、CQ ゾーン {2}、ITU ゾーン {3}（CTY.DAT による）
+unknown = 国・地域不明
+no_file = CTY.DAT がありません
+no_file.tip = country-files.com の CTY.DAT を zLog RS と同じフォルダに置くと国・地域を表示します

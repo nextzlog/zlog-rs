@@ -1,0 +1,13 @@
+[package]
+name = "zlog-rate"
+description = "QSO rate window: last-10/last-100 rates, the per-hour graph, targets per hour and the analysis text."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+rfd = "0.17"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

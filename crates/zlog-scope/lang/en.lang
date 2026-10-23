@@ -1,0 +1,9 @@
+title = Band Scope
+entry_band = Entry band
+all_bands = All bands
+memorise = Memo
+expire = Expire
+spotter = Spotted by
+delete = Delete
+toolbar = Scope
+toolbar.tip = Scope — band scope of spots around the frequency

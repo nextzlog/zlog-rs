@@ -1,0 +1,21 @@
+[package]
+name = "zlog-summary"
+description = "Summary sheets: the JARL E-Log summary sheet (R1.0, R2.1) and the Cabrillo header; the QSOs are written by zlog-qxsl."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[features]
+# The JARL Web submission of the E-Log (zlog-jarl).
+jarl = ["dep:encoding_rs", "dep:zlog-jarl"]
+
+[dependencies]
+egui = "0.37"
+encoding_rs = { version = "0.8", optional = true }
+qxsl = { git = "https://github.com/nextzlog/qxsl-rs", rev = "6b875b32cef7f52f93f78046e90262064e782ca7" }
+rfd = "0.17"
+zlog-core = { path = "../zlog-core" }
+zlog-jarl = { path = "../zlog-jarl", optional = true }
+zlog-qxsl = { path = "../zlog-qxsl" }
+zlog-ui = { path = "../zlog-ui" }

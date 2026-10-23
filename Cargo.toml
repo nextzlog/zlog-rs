@@ -1,0 +1,57 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/zlog-bind",
+    "crates/zlog-cfg",
+    "crates/zlog-check",
+    "crates/zlog-cli",
+    "crates/zlog-cluster",
+    "crates/zlog-core",
+    "crates/zlog-cw",
+    "crates/zlog-dc",
+    "crates/zlog-edit",
+    "crates/zlog-entry",
+    "crates/zlog-es",
+    "crates/zlog-gui",
+    "crates/zlog-ini",
+    "crates/zlog-ja6ycu",
+    "crates/zlog-jarl",
+    "crates/zlog-keyer",
+    "crates/zlog-link",
+    "crates/zlog-map",
+    "crates/zlog-net",
+    "crates/zlog-open",
+    "crates/zlog-ops",
+    "crates/zlog-ports",
+    "crates/zlog-qsy",
+    "crates/zlog-qth",
+    "crates/zlog-qxsl",
+    "crates/zlog-rate",
+    "crates/zlog-rig",
+    "crates/zlog-rig-cat",
+    "crates/zlog-rig-sim",
+    "crates/zlog-rtty",
+    "crates/zlog-rule",
+    "crates/zlog-rule-dx",
+    "crates/zlog-rule-ja",
+    "crates/zlog-scope",
+    "crates/zlog-score",
+    "crates/zlog-search",
+    "crates/zlog-so2r",
+    "crates/zlog-style",
+    "crates/zlog-soumu",
+    "crates/zlog-summary",
+    "crates/zlog-ui",
+    "crates/zlog-undo",
+    "crates/zlog-unr",
+    "crates/zlog-update",
+    "crates/zlog-voice",
+    "crates/zlog-zylo",
+]
+
+[workspace.package]
+version = "5.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/nextzlog/zlog-rs"
+publish = false

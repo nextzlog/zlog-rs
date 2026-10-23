@@ -1,0 +1,15 @@
+[package]
+name = "zlog-rtty"
+description = "RTTY: a terminal decoding Baudot FSK from the audio input, picking callsigns into the entry row, and sending F1-F12 messages as AFSK with PTT through the keyer."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+cpal = "0.18"
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-keyer = { path = "../zlog-keyer" }
+zlog-ui = { path = "../zlog-ui" }

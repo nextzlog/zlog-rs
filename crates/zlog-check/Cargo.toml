@@ -1,0 +1,13 @@
+[package]
+name = "zlog-check"
+description = "Check windows: partial check, super check (MASTER.SCP), check call and check multi."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+rfd = "0.17"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

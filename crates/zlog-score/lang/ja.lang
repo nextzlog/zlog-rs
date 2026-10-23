@@ -1,0 +1,12 @@
+# 日本語. Lines are `key = text`; {0}, {1} are filled in by the program.
+score.title = スコア
+multi.title = マルチ
+score.tooltip = スコア — バンド別の交信数・得点・マルチ
+multi.tooltip = マルチ — バンド別の獲得済みマルチと未獲得マルチ
+head.mhz = MHz
+head.qsos = 交信数
+head.points = 得点
+head.multi = マルチ
+head.total = 合計
+head.score = 総得点
+search = 検索

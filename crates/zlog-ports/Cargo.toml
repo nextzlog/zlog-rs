@@ -1,0 +1,13 @@
+[package]
+name = "zlog-ports"
+description = "List of serial ports in a window, to find the port of a rig or keyer (port of comportlist)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+serialport = { version = "4", default-features = false }
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

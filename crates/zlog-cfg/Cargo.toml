@@ -1,0 +1,20 @@
+[package]
+name = "zlog-cfg"
+description = "zLog's user-defined contests: CFG files and their DAT multiplier lists, for contests of any country, and the window that manages them."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[features]
+# The user-defined contest window (egui); off for the command line.
+window = ["dep:chrono", "dep:dirs", "dep:egui", "dep:zlog-ui", "dep:zlog-net"]
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+encoding_rs = "0.8"
+chrono = { version = "0.4", optional = true }
+dirs = { version = "7", optional = true }
+egui = { version = "0.37", optional = true }
+zlog-ui = { path = "../zlog-ui", optional = true }
+zlog-net = { path = "../zlog-net", optional = true }

@@ -1,0 +1,15 @@
+[package]
+name = "zlog-edit"
+description = "Editing logged QSOs: the edit dialog, inserting, deleting and the invalid flag."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }
+
+[dev-dependencies]
+zlog-rule-ja = { path = "../zlog-rule-ja" }

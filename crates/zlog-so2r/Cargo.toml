@@ -1,0 +1,13 @@
+[package]
+name = "zlog-so2r"
+description = "SO2R: the SO2R Neo control panel, and TX/RX switching of two rigs by SO2R Neo or OTRSP."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-rig = { path = "../zlog-rig", features = ["serial"] }
+zlog-ui = { path = "../zlog-ui" }

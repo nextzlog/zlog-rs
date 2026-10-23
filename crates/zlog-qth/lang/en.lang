@@ -1,0 +1,8 @@
+# English. Lines are `key = text`; {0}, {1} are filled in by the program.
+title = Country in the status bar
+tip = Show the country, continent and zones of the callsign being typed in the status bar
+item = {0} · {1} · CQ {2} · ITU {3}
+item.tip = {0} ({1}), CQ zone {2}, ITU zone {3}, from CTY.DAT
+unknown = Unknown country
+no_file = No CTY.DAT
+no_file.tip = Put CTY.DAT from country-files.com next to zLog RS to see countries

@@ -1,0 +1,27 @@
+[package]
+name = "zlog-cli"
+description = "Command-line front end for zLog."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zlog"
+path = "src/main.rs"
+
+[features]
+default = ["base", "cfg", "rule-ja", "rule-dx", "qxsl"]
+base = ["dep:zlog-rule"]
+cfg = ["dep:zlog-cfg"]
+rule-ja = ["dep:zlog-rule-ja", "cfg"]
+rule-dx = ["dep:zlog-rule-dx"]
+qxsl = ["dep:zlog-qxsl"]
+
+[dependencies]
+zlog-rule = { path = "../zlog-rule", optional = true }
+zlog-core = { path = "../zlog-core" }
+zlog-cfg = { path = "../zlog-cfg", optional = true }
+zlog-rule-ja = { path = "../zlog-rule-ja", optional = true }
+zlog-rule-dx = { path = "../zlog-rule-dx", optional = true }
+zlog-qxsl = { path = "../zlog-qxsl", optional = true }

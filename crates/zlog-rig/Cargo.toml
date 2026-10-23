@@ -1,0 +1,15 @@
+[package]
+name = "zlog-rig"
+description = "Rig control interface: rig state, transports, protocols, polling and band sync."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[features]
+# Real serial ports; without it only in-process transports (the simulator) exist.
+serial = ["dep:serialport"]
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+serialport = { version = "4", default-features = false, optional = true }
