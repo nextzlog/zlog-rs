@@ -1,0 +1,7 @@
+title = ステータスバーに国・地域を表示
+tip = 入力中のコールサインの国・大陸・ゾーンを表示
+item = {0} · {1} · CQ {2} · ITU {3}
+item.tip = {0} ({1})、 CQ ゾーン {2}、 ITU ゾーン {3} (CTY.DAT による)
+unknown = 国・地域不明
+no_file = CTY.DAT がありません
+no_file.tip = CTY.DAT を {0} と同じフォルダーに置くと国・地域を表示

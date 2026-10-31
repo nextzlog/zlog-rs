@@ -1,0 +1,13 @@
+title = スポラディック E 層
+refresh = 更新
+head.station = 観測所
+head.es = Es
+head.latest = 直近の Es
+head.fxes = fxEs
+signal.ongoing = 継続中
+signal.likely = 発生傾向
+signal.quiet = なし
+credit = データ: NICT 電離圏観測 (自動判定、誤差あり)
+toolbar = Es
+toolbar.tip = スポラディック E 層の観測情報
+unreadable = NICT のページを読めません (形式が変わった可能性)

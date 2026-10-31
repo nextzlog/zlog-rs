@@ -1,0 +1,12 @@
+title = Paper log entry
+field.date = Date
+field.time = Time
+field.call = Callsign
+field.rst_sent = RST sent
+field.rst_rcvd = RST rcvd
+field.number = Number
+field.band = Band
+field.mode = Mode
+field.memo = Memo
+logged = Logged #{0}: {1} {2} {3} {4} {5}
+help = Enter logs; + or Ctrl+Up / Ctrl+Down: one minute; two digits in Time: minutes; Shift+B / Alt+M: band, mode (Ctrl+Shift+B / Ctrl+Shift+M back); Alt+D / Alt+C: date, callsign

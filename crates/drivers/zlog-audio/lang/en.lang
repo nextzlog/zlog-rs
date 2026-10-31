@@ -1,0 +1,16 @@
+sound = Sound device
+output = Output
+input = Input
+default_device = Default device
+source.cw = CW from another station
+source.rtty = RTTY from another station
+page = Sound
+page.note = FT8, RTTY and voice memory use these devices.
+page.device = Device
+page.none = None
+test.start = Test input
+test.start.tip = Open the devices and show the input level
+test.stop = Stop test
+test.tone = Play test tone
+test.tone.tip = Play 700 Hz for 1 s (no TX)
+test.none = No device is chosen

@@ -1,0 +1,24 @@
+[package]
+name = "zlog-ft8"
+description = "FT8 and FT4: modem drivers of the ftxl crate and the band-activity window of the ftxl-ui crate, logging the contacts of its auto-sequencer."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+egui = "0.37"
+ftxl = { workspace = true }
+haml = { workspace = true, features = ["remote"] }
+ftxl-ui = { workspace = true }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-rtty = { path = "../zlog-rtty" }
+zlog-remote = { path = "../../drivers/zlog-remote" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+egui = { version = "0.37", features = ["default_fonts"] }
+egui_kittest = "0.37"
+zlog-ui = { path = "../../core/zlog-ui", features = ["test-hooks"] }

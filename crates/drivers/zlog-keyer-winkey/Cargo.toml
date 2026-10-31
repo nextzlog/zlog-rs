@@ -1,0 +1,15 @@
+[package]
+name = "zlog-keyer-winkey"
+description = "The K1EL WinKeyer keyer driver; its port is shared with SO2R Neo."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true, features = ["hid", "remote"] }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-keyer = { path = "../zlog-keyer" }
+zlog-serial = { path = "../../core/zlog-serial" }
+zlog-ui = { path = "../../core/zlog-ui" }

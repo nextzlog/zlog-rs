@@ -1,0 +1,16 @@
+dock = {0} をメインウィンドウに格納
+float = {0} を別ウィンドウに
+none = メインウィンドウに格納
+tip = 最後に使ったツールウィンドウを格納・分離
+float.tab = 別ウィンドウに
+close = 閉じる
+area.left = 左へ移動
+area.right = 右へ移動
+area.bottom = 下へ移動
+show.left = 左のパネル
+show.right = 右のパネル
+show.bottom = 下のパネル
+show.tip = この格納エリアを表示・非表示
+hint = ここにタブをドラッグ
+none.tip = ツールウィンドウが開いていません
+into.tip = このエリアにウィンドウを格納

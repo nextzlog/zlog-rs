@@ -1,0 +1,7 @@
+convert
+{dir}/../logs/log.zlox
+{out}.txt
+--to
+zLog (DOS)
+--contest
+allja

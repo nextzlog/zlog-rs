@@ -1,0 +1,13 @@
+[package]
+name = "zlog-search"
+description = "Search the log for a callsign, received number or remark, and go to the QSO (port of zLog's QSO Search)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }

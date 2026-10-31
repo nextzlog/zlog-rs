@@ -1,0 +1,15 @@
+[package]
+name = "zlog-lua"
+description = "Lua (Luau) scoring scripts for user-defined contests: the SCRIPT LUA section after EXIT in a CFG file."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+mlua = { version = "0.11", features = ["luau", "send"] }
+serde_json = "1"
+zlog-cfg = { path = "../zlog-cfg", features = ["window"] }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }

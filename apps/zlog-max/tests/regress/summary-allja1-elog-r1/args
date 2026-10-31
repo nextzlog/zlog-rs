@@ -1,0 +1,8 @@
+summary
+{dir}/../logs/settings.toml
+{dir}/../logs/allja1.zlo
+{out}.em
+--contest
+{dir}/../cfg/ja1.cfg
+--date
+2014年6月2日

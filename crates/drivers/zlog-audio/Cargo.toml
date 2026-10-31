@@ -1,0 +1,17 @@
+[package]
+name = "zlog-audio"
+description = "The audio back-end: the sound devices of the system through cpal, and a loopback simulator."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+cpal = "0.18"
+egui = "0.37"
+rubato = { version = "5", default-features = false }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-keyer = { path = "../zlog-keyer" }
+rtty = { workspace = true }
+zlog-ui = { path = "../../core/zlog-ui" }

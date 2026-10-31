@@ -1,0 +1,7 @@
+neo = SO2R Neo
+neo_keyer = SO2R Neo on the keyer port
+port = Port
+simulator = Simulator
+af_blend = AF blend
+off = OFF
+no_keyer = WinKeyer port not open; SO2R Neo is told when it opens

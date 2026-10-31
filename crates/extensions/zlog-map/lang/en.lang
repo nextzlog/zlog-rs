@@ -1,0 +1,8 @@
+title = Map
+areas = {0} areas
+unknown = ({0} codes not in the table)
+osm = © OpenStreetMap contributors
+background = Background (OSM)
+attribution = Source: National Land Numerical Information (MLIT)
+toolbar = Map
+toolbar.tip = Areas worked, on a map

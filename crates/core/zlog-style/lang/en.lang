@@ -1,0 +1,5 @@
+title = Display
+theme = Theme
+theme.system = Follow the system
+theme.light = Light
+theme.dark = Dark

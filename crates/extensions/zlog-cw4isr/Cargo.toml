@@ -1,0 +1,23 @@
+[package]
+name = "zlog-cw4isr"
+description = "CW decoding: the CW4ISR window of the cw4i-ui crate, filling the entry row with picked words."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+cw4i-ui = { workspace = true }
+egui = "0.37"
+hound = "3.5"
+regex = "1"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-keyer = { path = "../../drivers/zlog-keyer" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+egui = { version = "0.37", features = ["default_fonts"] }
+egui_kittest = "0.37"
+zlog-audio = { path = "../../drivers/zlog-audio" }
+zlog-ui = { path = "../../core/zlog-ui", features = ["test-hooks"] }

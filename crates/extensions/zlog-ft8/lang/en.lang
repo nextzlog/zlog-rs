@@ -1,0 +1,13 @@
+title = FT8 / FT4
+toolbar = FT8 / FT4
+toolbar.tip = FT8 and FT4 with auto-sequencing
+modem = modem
+device = Audio
+none = None
+no_device = Choose an audio device in Options
+wav.kind = WAV audio
+scope = Band scope
+scope.tip = Show stations heard in the band scope
+auto_log = Log completed QSOs automatically
+auto_log.tip = Logs the QSO when RR73, RRR or 73 ends the sequence. Dupes go to the entry row.
+remote_busy = In use by remote station {0}

@@ -1,0 +1,11 @@
+command = バックアップ
+command.tip = ログを .BAK としてバックアップフォルダーにコピー
+options.title = バックアップ
+options.folder = バックアップフォルダー
+options.folder.tip = %VAR% は環境変数、相対パスは設定フォルダー基準。変更ごとにコピー
+browse = 参照…
+done = {0} にバックアップしました
+no_log = バックアップするログが開かれていません
+same_folder = バックアップフォルダー {0} がログと同じです。別のフォルダーを選んでください
+create_failed = バックアップフォルダー {0} を作成できません: {1}
+write_failed = {0} にバックアップを書き込めません: {1}

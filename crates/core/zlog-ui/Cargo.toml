@@ -1,0 +1,26 @@
+[package]
+name = "zlog-ui"
+description = "What an extension may add to the zLog window: panels drawn with egui."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true }
+zlog-core = { path = "../zlog-core" }
+zlog-serial = { path = "../zlog-serial" }
+zlog-tls = { path = "../zlog-tls" }
+chrono = "0.4"
+egui = "0.37"
+hound = "3.5"
+rfd = "0.17"
+
+[features]
+test-hooks = []
+
+[dev-dependencies]
+egui = { version = "0.37", features = ["default_fonts"] }
+egui_kittest = "0.37"
+ttf-parser = "0.25"

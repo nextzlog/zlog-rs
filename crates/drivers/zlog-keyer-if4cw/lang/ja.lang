@@ -1,0 +1,16 @@
+title = USBIF4CW
+so2r = USBIF4CW RIG 切替
+device = デバイス
+ptt = PTT 制御
+sync_wpm = パドル速度をキーヤーに合わせる
+gen3_mic = 第 3 世代の MIC 切替を音声に使う
+mic_follows = MIC を送信リグに合わせる
+sim.host = zLog との接続
+sim.key = キー
+sim.ptt = PTT
+sim.rig = RIG 切替
+sim.mic = MIC 切替
+sim.wpm = パドル速度 (WPM)
+sim.keyed = キーイングの解読
+sim.on = ON
+sim.off = OFF

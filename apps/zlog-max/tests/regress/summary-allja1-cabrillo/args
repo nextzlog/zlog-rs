@@ -1,0 +1,6 @@
+summary
+{dir}/../logs/settings.toml
+{dir}/../logs/allja1.zlo
+{out}.cbr
+--contest
+{dir}/../cfg/ja1.cfg

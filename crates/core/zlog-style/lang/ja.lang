@@ -1,0 +1,5 @@
+title = 表示
+theme = 配色
+theme.system = システムに合わせる
+theme.light = ライト
+theme.dark = ダーク

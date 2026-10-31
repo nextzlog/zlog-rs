@@ -1,0 +1,19 @@
+[package]
+name = "zlog-so2r-neo"
+description = "The SO2R Neo box: on a port of its own, or on the keyer's WinKeyer port as zLog uses it."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true, features = ["hid", "remote"] }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-serial = { path = "../../core/zlog-serial" }
+zlog-so2r = { path = "../zlog-so2r" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+zlog-keyer = { path = "../zlog-keyer" }
+zlog-keyer-winkey = { path = "../zlog-keyer-winkey" }

@@ -1,0 +1,16 @@
+title = Classic zLog (entry row below log)
+enter.next = Enter: {0}
+enter.options.title = Entry row
+enter.options.enter_sends = Enter sends messages
+enter.options.enter_sends.tip = CQ: CQ, exchange, then TU and log. S&P: my call, exchange and log.
+enter.options.dupe_sends = Send the worked-before message on a dupe (off: warn only)
+enter.power.p = P (QRP)
+enter.power.l = L (Low)
+enter.power.m = M (Medium)
+enter.power.h = H (High)
+nav.next = Next: F{0} {1}
+nav.tip = Next message: CQ: CQ, exchange, TU. S&P: my call, exchange.
+nav.hide = Hide the guide (turn it on again in Options > Entry row)
+nav.option = Show the next message beside the entry row
+nav.option.tip = Shows which F key to press next in the QSO
+fkeys = Show the F1-F12 message buttons

@@ -1,0 +1,7 @@
+title = Country in the status bar
+tip = Show country, continent and zones of the callsign
+item = {0} · {1} · CQ {2} · ITU {3}
+item.tip = {0} ({1}), CQ zone {2}, ITU zone {3}, from CTY.DAT
+unknown = Unknown country
+no_file = No CTY.DAT
+no_file.tip = Put CTY.DAT next to {0} to show countries

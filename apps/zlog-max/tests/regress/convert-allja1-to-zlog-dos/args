@@ -1,0 +1,7 @@
+convert
+{dir}/../logs/allja1.zlo
+{out}.txt
+--to
+zLog (DOS)
+--contest
+{dir}/../cfg/ja1.cfg

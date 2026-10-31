@@ -1,0 +1,16 @@
+[package]
+name = "zlog-so2r"
+description = "SO2R: the SO2R control panel and the play queue; the box chosen is switched by the HaML TX arbiter."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml-ui = { workspace = true }
+haml = { workspace = true, features = ["hid", "remote"] }
+zlog-serial = { path = "../../core/zlog-serial" }
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }

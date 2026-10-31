@@ -1,0 +1,13 @@
+menu.import = Import zlog.ini
+menu.export = Export zlog.ini
+cmd.import.tip = Take the values of a zlog.ini into the settings
+cmd.export.tip = Write the settings into a zlog.ini
+ask = Import {0} ({1} sections, {2} values)? Same keys are replaced.
+imported = Imported {0} values from zlog.ini (some apply after a restart).
+exported = Exported the settings to {0}.
+backup = The file that was there is kept as {0}.
+left_out = {0} values with line breaks left out.
+read_failed = Could not read the file: {0}
+write_failed = Could not write the file: {0}
+overwrite = {0} already exists. Replace it?
+ok = OK

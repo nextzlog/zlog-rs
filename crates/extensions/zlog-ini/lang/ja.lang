@@ -1,0 +1,13 @@
+menu.import = zlog.ini を読み込む
+menu.export = zlog.ini に書き出す
+cmd.import.tip = zlog.ini の値を設定に読み込む
+cmd.export.tip = 設定を zlog.ini に書き出す
+ask = {0} ({1} セクション、{2} 項目) を読み込みますか? 同じキーは置き換えます。
+imported = zlog.ini から {0} 項目を読み込みました (一部は再起動後に反映)。
+exported = 設定を {0} に書き出しました。
+backup = 元のファイルは {0} として残しました。
+left_out = 改行を含む {0} 項目を省きました。
+read_failed = ファイルを読めませんでした: {0}
+write_failed = ファイルを書けませんでした: {0}
+overwrite = {0} は既に存在します。置き換えますか?
+ok = OK

@@ -1,0 +1,11 @@
+command = Back up
+command.tip = Copy the log as .BAK to the backup folder
+options.title = Back up
+options.folder = Backup folder
+options.folder.tip = %VAR%: environment variable; relative paths: settings folder. Copied on each change
+browse = Browse…
+done = Backed up to {0}
+no_log = No log is open to back up
+same_folder = Backup folder {0} is the log's folder; choose another
+create_failed = Could not create the backup folder {0}: {1}
+write_failed = Could not write the backup in {0}: {1}

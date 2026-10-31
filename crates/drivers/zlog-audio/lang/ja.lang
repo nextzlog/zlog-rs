@@ -1,0 +1,16 @@
+sound = サウンドデバイス
+output = 出力
+input = 入力
+default_device = 既定のデバイス
+source.cw = 相手局の CW
+source.rtty = 相手局の RTTY
+page = 音声
+page.note = FT8・RTTY・ボイスメモリーはこの機器を使います。
+page.device = 機器
+page.none = なし
+test.start = 入力をテスト
+test.start.tip = 機器を開いて入力レベルを表示する
+test.stop = テストを停止
+test.tone = テスト音を再生
+test.tone.tip = 出力に 700 Hz を 1 秒鳴らす (送信しない)
+test.none = 機器が選ばれていません

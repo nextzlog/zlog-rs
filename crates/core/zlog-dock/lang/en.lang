@@ -1,0 +1,16 @@
+dock = Dock {0}
+float = Float {0}
+none = Dock
+tip = Dock or float the last used tool window
+float.tab = Float
+close = Close
+area.left = Move to the left
+area.right = Move to the right
+area.bottom = Move to the bottom
+show.left = Left panel
+show.right = Right panel
+show.bottom = Bottom panel
+show.tip = Show or hide this dock area
+hint = Drag a tab here
+none.tip = No tool window is open
+into.tip = Dock the window into this area

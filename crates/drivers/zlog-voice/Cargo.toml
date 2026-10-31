@@ -1,0 +1,16 @@
+[package]
+name = "zlog-voice"
+description = "Voice memories: WAV files on F1-F12 in phone modes, CQ repeat, PTT through the keyer and recording from the microphone."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+dirs = "7"
+egui = "0.37"
+hound = "3.5"
+zlog-audio = { path = "../zlog-audio" }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }

@@ -1,0 +1,16 @@
+title = USBIF4CW
+so2r = USBIF4CW RIG select
+device = Device
+ptt = PTT control
+sync_wpm = Paddle speed follows the keyer
+gen3_mic = Gen.3 MIC select for phone
+mic_follows = MIC follows the TX rig
+sim.host = Opened by zLog
+sim.key = Key
+sim.ptt = PTT
+sim.rig = RIG select
+sim.mic = MIC select
+sim.wpm = Paddle speed (WPM)
+sim.keyed = Keyed text
+sim.on = ON
+sim.off = OFF

@@ -1,0 +1,16 @@
+[package]
+name = "zlog-keyer-if4cw"
+description = "USBIF4CW over USB HID: CW and PTT keyed by the PC, its paddle, MIC select, and the RIG bit as an SO2R box."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true, features = ["hid", "remote"] }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-keyer = { path = "../zlog-keyer" }
+zlog-serial = { path = "../../core/zlog-serial" }
+zlog-so2r = { path = "../zlog-so2r" }
+zlog-ui = { path = "../../core/zlog-ui" }

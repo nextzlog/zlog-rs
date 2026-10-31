@@ -1,0 +1,15 @@
+title = バンドスコープ
+entry_band = 入力中のバンド
+all_bands = 全バンド
+memorise = メモ
+count = {0} 局
+expire = 有効期限
+spotter = スポット元
+delete = 削除
+toolbar = スコープ
+toolbar.tip = 周波数付近のスポットのバンドスコープ
+memorise.tip = 入力中の局をリグ周波数でバンドスコープにメモ
+frequency = 周波数 (kHz)
+ok = OK
+cancel = キャンセル
+source = 情報源

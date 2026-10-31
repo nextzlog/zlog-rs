@@ -1,0 +1,20 @@
+[package]
+name = "zlog-remote"
+description = "Remote operation over HaML and TLS: a listener that lends this station's rigs, keyer and SO2R box after pairing or a token, and a client that drives those of another station."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+haml = { workspace = true, features = ["hid", "remote"] }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-keyer = { path = "../zlog-keyer" }
+zlog-so2r = { path = "../zlog-so2r" }
+zlog-tls = { path = "../../core/zlog-tls" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+zlog-keyer-sim = { path = "../zlog-keyer-sim" }

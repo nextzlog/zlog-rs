@@ -1,0 +1,13 @@
+title = FT8 / FT4
+toolbar = FT8 / FT4
+toolbar.tip = FT8・FT4 の受信と自動シーケンスでの交信
+modem = モデム
+device = 音声
+none = なし
+no_device = オプションで音声デバイスを選んでください
+wav.kind = WAV 音声
+scope = バンドスコープ
+scope.tip = 受信した局をバンドスコープに表示
+auto_log = 完了した交信を自動で記録
+auto_log.tip = RR73・RRR・73 でシーケンスが終わると記録します。重複は入力欄に入れます。
+remote_busy = リモート局 {0} が使用中

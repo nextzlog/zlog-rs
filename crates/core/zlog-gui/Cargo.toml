@@ -1,0 +1,27 @@
+[package]
+name = "zlog-gui"
+description = "zLog-style contest logging window for macOS, Windows and Linux: the host every edition runs."
+version.workspace = true
+repository.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[features]
+testing = []
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }
+zlog-process = { path = "../zlog-process" }
+eframe = "0.37"
+fontdb = "0.23"
+egui = "0.37"
+chrono = "0.4"
+dirs = "7"
+toml = "1"
+
+[dev-dependencies]
+zlog-std = { path = "../zlog-std" }
+zlog-bind = { path = "../zlog-bind" }
+zlog-ui = { path = "../zlog-ui", features = ["test-hooks"] }

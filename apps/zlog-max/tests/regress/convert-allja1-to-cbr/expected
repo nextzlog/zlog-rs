@@ -1,0 +1,53 @@
+START-OF-LOG: 3.0
+CALLSIGN: 
+CONTEST: 
+CATEGORY-ASSISTED: 
+CATEGORY-BAND: 
+CATEGORY-MODE: 
+CATEGORY-OPERATOR: 
+CATEGORY-POWER: 
+CATEGORY-STATION: 
+CATEGORY-TIME: 
+CATEGORY-TRANSMITTER: 
+CATEGORY-OVERLAY: 
+CERTIFICATE: 
+CLAIMED-SCORE: 
+CLUB: 
+CREATED-BY: 
+EMAIL: 
+GRID-LOCATOR: 
+LOCATION: 
+NAME: 
+ADDRESS: 
+ADDRESS-CITY: 
+ADDRESS-STATE-PROVINCE: 
+ADDRESS-POSTALCODE: 
+ADDRESS-COUNTRY: 
+OPERATORS: 
+OFFTIME: 
+SOAPBOX: 
+QSO: 14000 PH 2014-06-01 0032                59        JA1YAD         59 100110 0
+QSO: 21000 CW 2014-06-01 0035               599        JA1YWX        599 100105 0
+QSO: 28000 PH 2014-06-01 0056                59        JA1YYE         59 13009  0
+QSO:    50 PH 2014-06-01 0102                59        JA1YXP         59 134404 0
+QSO: 21000 PH 2014-06-01 0127                59        JR1ZTT         59 1420   0
+QSO: 21000 PH 2014-06-01 0151                59        JR1ZTT         59 1420   0
+QSO:    50 PH 2014-06-01 0157                59        JA1ZLO         59 10     0
+QSO: 14000 CW 2014-06-01 0206               599        JA7YCQ        599 06     0
+QSO:    50 PH 2014-06-01 0209                59        JR1ZTT         59 1420   0
+QSO: 21000 PH 2014-06-01 0212                59        JA3YKC         59 25     0
+QSO: 14000 PH 2014-06-01 0214                59        JA1YAD         59 100110 0
+QSO: 28000 FM 2014-06-01 0224                59        JA3YDS         59 22     0
+QSO:    50 FM 2014-06-01 0259                59        JQ1ZLO         59 46     0
+QSO:  1800 CW 2014-06-01 0702               599        JA1ZLO        599 100110 0
+QSO:  3500 CW 2014-06-01 0707               599        JA1YGX        599 100105 0
+QSO:  7000 PH 2014-06-01 0729                59        JA1YCG         59 110109 0
+QSO:  7000 CW 2014-06-01 0737               599        JA1YDU        599 1216   0
+QSO:  7000 CW 2014-06-01 0817               599        JA1ZGP        599 1009   0
+QSO:  7000 CW 2014-06-01 0823               599        JA1ZLO        599 100110 0
+QSO:  7000 PH 2014-06-01 0838                59        JA1YGX         59 100105 0
+QSO:  7000 CW 2014-06-01 0947               599        JA2YKA        599 20     0
+QSO:  7000 PH 2014-06-01 1133                59        JA1ZGP         59 1009   0
+QSO:  7000 PH 2014-06-01 1202                59        JA7YCQ         59 06     0
+QSO:  7000 PH 2014-06-01 1453                59        JA1YYE         59 13009  0
+END-OF-LOG:

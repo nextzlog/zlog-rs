@@ -1,0 +1,90 @@
+[package]
+name = "zlog-max"
+description = "zLog Max: everything contesting needs, in one."
+version.workspace = true
+repository.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zlog-max"
+path = "src/main.rs"
+
+[[bin]]
+name = "zlog"
+path = "src/cli.rs"
+
+[dependencies]
+clap = { version = "4", default-features = false, features = ["std", "derive"] }
+zlog-after = { path = "../../crates/extensions/zlog-after" }
+zlog-audio = { path = "../../crates/drivers/zlog-audio" }
+zlog-backup = { path = "../../crates/extensions/zlog-backup" }
+zlog-cfg = { path = "../../crates/extensions/zlog-cfg", features = ["window"] }
+zlog-check = { path = "../../crates/extensions/zlog-check" }
+zlog-cli = { path = "../../crates/core/zlog-cli" }
+zlog-cluster = { path = "../../crates/extensions/zlog-cluster" }
+zlog-comport = { path = "../../crates/drivers/zlog-comport" }
+zlog-core = { path = "../../crates/core/zlog-core" }
+zlog-country = { path = "../../crates/extensions/zlog-country" }
+zlog-cty = { path = "../../crates/extensions/zlog-cty" }
+zlog-cw4isr = { path = "../../crates/extensions/zlog-cw4isr" }
+zlog-edit = { path = "../../crates/extensions/zlog-edit" }
+zlog-es = { path = "../../crates/extensions/zlog-es" }
+zlog-form = { path = "../../crates/extensions/zlog-form" }
+zlog-ft8 = { path = "../../crates/extensions/zlog-ft8" }
+zlog-gui = { path = "../../crates/core/zlog-gui" }
+zlog-guide = { path = "../../crates/extensions/zlog-guide" }
+zlog-history = { path = "../../crates/extensions/zlog-history" }
+zlog-ini = { path = "../../crates/extensions/zlog-ini" }
+zlog-ja6ycu = { path = "../../crates/extensions/zlog-ja6ycu" }
+zlog-jarl = { path = "../../crates/extensions/zlog-jarl" }
+zlog-keyer = { path = "../../crates/drivers/zlog-keyer" }
+zlog-keyer-if4cw = { path = "../../crates/drivers/zlog-keyer-if4cw" }
+zlog-keyer-line = { path = "../../crates/drivers/zlog-keyer-line" }
+zlog-keyer-sim = { path = "../../crates/drivers/zlog-keyer-sim" }
+zlog-keyer-winkey = { path = "../../crates/drivers/zlog-keyer-winkey" }
+zlog-license = { path = "../../crates/extensions/zlog-license" }
+zlog-link = { path = "../../crates/extensions/zlog-link" }
+zlog-lua = { path = "../../crates/extensions/zlog-lua" }
+zlog-map = { path = "../../crates/extensions/zlog-map" }
+zlog-market = { path = "../../crates/extensions/zlog-market" }
+zlog-number = { path = "../../crates/extensions/zlog-number" }
+zlog-op = { path = "../../crates/extensions/zlog-op" }
+zlog-qsy = { path = "../../crates/extensions/zlog-qsy" }
+zlog-qxsl = { path = "../../crates/extensions/zlog-qxsl" }
+zlog-rate = { path = "../../crates/extensions/zlog-rate" }
+zlog-remote = { path = "../../crates/drivers/zlog-remote" }
+zlog-rig = { path = "../../crates/drivers/zlog-rig" }
+zlog-rtty = { path = "../../crates/extensions/zlog-rtty" }
+zlog-rule-dx = { path = "../../crates/extensions/zlog-rule-dx" }
+zlog-rule-ja = { path = "../../crates/extensions/zlog-rule-ja" }
+zlog-scope = { path = "../../crates/extensions/zlog-scope" }
+zlog-score = { path = "../../crates/extensions/zlog-score" }
+zlog-search = { path = "../../crates/extensions/zlog-search" }
+zlog-so2r = { path = "../../crates/drivers/zlog-so2r" }
+zlog-so2r-neo = { path = "../../crates/drivers/zlog-so2r-neo" }
+zlog-so2r-otrsp = { path = "../../crates/drivers/zlog-so2r-otrsp" }
+zlog-std = { path = "../../crates/core/zlog-std" }
+zlog-summary = { path = "../../crates/extensions/zlog-summary" }
+zlog-toml = { path = "../../crates/extensions/zlog-toml" }
+zlog-ui = { path = "../../crates/core/zlog-ui" }
+zlog-voice = { path = "../../crates/drivers/zlog-voice" }
+zlog-webhook = { path = "../../crates/extensions/zlog-webhook" }
+zlog-zylo = { path = "../../crates/extensions/zlog-zylo" }
+
+[dev-dependencies]
+zlog-core = { path = "../../crates/core/zlog-core" }
+zlog-gui = { path = "../../crates/core/zlog-gui", features = ["testing"] }
+zlog-mac = { path = "../../crates/core/zlog-mac" }
+zlog-menu = { path = "../../crates/core/zlog-menu" }
+zlog-net = { path = "../../crates/core/zlog-net" }
+zlog-open = { path = "../../crates/core/zlog-open" }
+zlog-rule = { path = "../../crates/core/zlog-rule" }
+zlog-status = { path = "../../crates/core/zlog-status" }
+zlog-toolbar = { path = "../../crates/core/zlog-toolbar" }
+zlog-ui = { path = "../../crates/core/zlog-ui", features = ["test-hooks"] }
+zlog-undo = { path = "../../crates/core/zlog-undo" }
+zlog-testing = { path = "../zlog-testing" }
+egui = "0.37"
+egui_kittest = { version = "0.37", features = ["eframe"] }

@@ -1,0 +1,15 @@
+[package]
+name = "zlog-ja6ycu"
+description = "JA6YCU's list of CFG and DAT files for zLog, searched in the user-defined contest window (files are downloaded in the browser)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+dirs = "7"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-ui = { path = "../../core/zlog-ui" }

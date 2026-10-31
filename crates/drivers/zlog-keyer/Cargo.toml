@@ -1,0 +1,16 @@
+[package]
+name = "zlog-keyer"
+description = "CW keying through the HaML TX arbiter: the keyer drivers, F1-F12 messages with $-macros, CQ repeat and a CW keyboard."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true }
+egui = "0.37"
+chrono = "0.4"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-macro = { path = "../../core/zlog-macro" }
+zlog-ui = { path = "../../core/zlog-ui" }

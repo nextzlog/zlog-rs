@@ -1,0 +1,13 @@
+title = Entry window
+show = Show the entry window
+field.call = Callsign
+field.rst_sent = RST sent
+field.rst_rcvd = RST received
+field.number = Number received
+field.memo = Memo
+dupe = DUPE
+new_multi = New multiplier {0}
+cq = CQ
+sp = S&P
+next = Enter: {0}
+suggestion = {0} (Alt+A)

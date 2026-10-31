@@ -1,0 +1,20 @@
+[package]
+name = "zlog-link"
+description = "Z-Link client: joins a Z-Server multi-operator network together with Windows zLog."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+egui = "0.37"
+encoding_rs = "0.8"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-tls = { path = "../../core/zlog-tls" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+zlog-undo = { path = "../../core/zlog-undo" }

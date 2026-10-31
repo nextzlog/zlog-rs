@@ -1,0 +1,6 @@
+.*
+!.github/
+!.gitignore
+/target
+/dist
+Cargo.lock

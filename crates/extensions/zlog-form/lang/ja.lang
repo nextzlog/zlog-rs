@@ -1,0 +1,13 @@
+title = 入力ウィンドウ
+show = 入力ウィンドウを開く
+field.call = コールサイン
+field.rst_sent = 送った RST
+field.rst_rcvd = 受けた RST
+field.number = 受けたナンバー
+field.memo = メモ
+dupe = 重複 (DUPE)
+new_multi = 新しいマルチ {0}
+cq = CQ
+sp = S&P
+next = Enter: {0}
+suggestion = {0} (Alt+A)

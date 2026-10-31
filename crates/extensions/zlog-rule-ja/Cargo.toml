@@ -1,0 +1,13 @@
+[package]
+name = "zlog-rule-ja"
+description = "Japanese contests for zLog: JARL's ALL JA, 6m AND DOWN, Field Day and ACAG; ALL JA0 and New Year Party."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+zlog-core = { path = "../../core/zlog-core" }
+zlog-cfg = { path = "../zlog-cfg" }
+zlog-rule = { path = "../../core/zlog-rule" }

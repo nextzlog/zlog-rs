@@ -1,0 +1,16 @@
+[package]
+name = "zlog-summary"
+description = "Summary sheets: the JARL E-Log summary sheet (R1.0, R2.1) and the Cabrillo header, with the QSO lines written as zLog writes them."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+rxsl = { workspace = true }
+toml = "1"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-qxsl = { path = "../zlog-qxsl" }
+zlog-ui = { path = "../../core/zlog-ui" }

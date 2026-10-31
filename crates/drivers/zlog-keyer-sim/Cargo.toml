@@ -1,0 +1,15 @@
+[package]
+name = "zlog-keyer-sim"
+description = "A simulated CW keyer: takes as long as the Morse would and keeps what it sent."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true }
+zlog-audio = { path = "../zlog-audio" }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-keyer = { path = "../zlog-keyer" }
+zlog-ui = { path = "../../core/zlog-ui" }

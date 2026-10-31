@@ -1,0 +1,11 @@
+score.title = スコア
+multi.title = マルチ
+score.tooltip = バンド別の交信数・得点・マルチ
+multi.tooltip = バンド別の獲得済みマルチと未獲得マルチ
+head.mhz = MHz
+head.qsos = 交信数
+head.points = 得点
+head.multi = マルチ
+head.total = 合計
+head.score = 総得点
+search = 検索

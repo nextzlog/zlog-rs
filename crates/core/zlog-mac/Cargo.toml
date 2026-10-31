@@ -1,0 +1,16 @@
+[package]
+name = "zlog-mac"
+description = "The native macOS menu bar with muda: a presenter of the application's menus; empty on other platforms."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+keyboard-types = "0.8"
+zlog-ui = { path = "../zlog-ui" }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+muda = "0.21"

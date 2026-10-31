@@ -1,0 +1,23 @@
+[package]
+name = "zlog-testing"
+description = "Shared GUI tests of zLog Max."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+zlog-gui = { path = "../../crates/core/zlog-gui", features = ["testing"] }
+zlog-ui = { path = "../../crates/core/zlog-ui", features = ["test-hooks"] }
+zlog-core = { path = "../../crates/core/zlog-core" }
+zlog-net = { path = "../../crates/core/zlog-net" }
+zlog-process = { path = "../../crates/core/zlog-process" }
+zlog-open = { path = "../../crates/core/zlog-open" }
+zlog-audio = { path = "../../crates/drivers/zlog-audio" }
+zlog-cfg = { path = "../../crates/extensions/zlog-cfg", features = ["window"] }
+zlog-edit = { path = "../../crates/extensions/zlog-edit" }
+zlog-guide = { path = "../../crates/extensions/zlog-guide" }
+zlog-rig = { path = "../../crates/drivers/zlog-rig" }
+egui = "0.37"
+egui_kittest = { version = "0.37", features = ["eframe"] }

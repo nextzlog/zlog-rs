@@ -1,0 +1,9 @@
+title = WinKeyer
+sidetone = Side tone
+sim.host = Opened by zLog
+sim.wpm = Speed (WPM)
+sim.ptt = PTT
+sim.sidetone = Side tone
+sim.sent = Sent
+sim.on = ON
+sim.off = OFF

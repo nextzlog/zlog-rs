@@ -1,0 +1,13 @@
+title = 送信ナンバーを一括修正
+menu = 送信ナンバーを一括修正
+menu.tip = 複数の交信の送信ナンバーを一括変更
+low = 1200 MHz 以下
+high = 2400 MHz 以上
+band = 対象の交信
+all = 全バンド
+power_code = バンドごとの電力コードを付ける
+example = 例: {0} は {1} になります
+count = {0} 件の交信を書き換えます
+apply = 修正する
+cancel = キャンセル
+toolbar = ナンバー修正

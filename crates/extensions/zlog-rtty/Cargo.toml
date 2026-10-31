@@ -1,0 +1,25 @@
+[package]
+name = "zlog-rtty"
+description = "RTTY: the RTTY window of the rtty-ui crate, picking callsigns and numbers into the entry row, and sending F1-F12 messages with PTT through the keyer."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+egui = "0.37"
+regex = "1"
+haml = { workspace = true, features = ["remote"] }
+rtty = { workspace = true }
+rtty-ui = { workspace = true }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-macro = { path = "../../core/zlog-macro" }
+zlog-remote = { path = "../../drivers/zlog-remote" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+egui = { version = "0.37", features = ["default_fonts"] }
+egui_kittest = "0.37"
+zlog-ui = { path = "../../core/zlog-ui", features = ["test-hooks"] }

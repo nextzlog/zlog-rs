@@ -1,0 +1,16 @@
+[package]
+name = "zlog-rig"
+description = "Rig control: rig 1 and rig 2 kept in step with the entry row, the Rig Control window, the rig tabs of Options and the Device menu's rig commands."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+haml-ui = { workspace = true }
+haml = { workspace = true }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-serial = { path = "../../core/zlog-serial" }
+zlog-ui = { path = "../../core/zlog-ui" }

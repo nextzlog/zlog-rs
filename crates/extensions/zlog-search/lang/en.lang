@@ -1,0 +1,9 @@
+title = Find QSOs
+toolbar = Search
+toolbar.tip = Find QSOs by callsign, number or remarks
+text = Find
+hint = Callsign, received number or remarks
+next = Next
+previous = Previous
+empty = Type what to find (Enter: next, Shift+Enter: previous).
+count = {0} QSOs found

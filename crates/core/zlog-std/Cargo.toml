@@ -1,0 +1,26 @@
+[package]
+name = "zlog-std"
+description = "The Core crates of zLog in one register: the facade every edition builds on."
+version.workspace = true
+repository.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+zlog-bind = { path = "../zlog-bind" }
+zlog-dock = { path = "../zlog-dock" }
+zlog-entry = { path = "../zlog-entry" }
+zlog-table = { path = "../zlog-table" }
+zlog-menu = { path = "../zlog-menu" }
+zlog-open = { path = "../zlog-open" }
+zlog-rule = { path = "../zlog-rule" }
+zlog-status = { path = "../zlog-status" }
+zlog-style = { path = "../zlog-style" }
+zlog-toolbar = { path = "../zlog-toolbar" }
+zlog-ui = { path = "../zlog-ui" }
+zlog-undo = { path = "../zlog-undo" }
+zlog-update = { path = "../zlog-update" }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+zlog-mac = { path = "../zlog-mac" }

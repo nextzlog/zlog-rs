@@ -1,0 +1,13 @@
+[package]
+name = "zlog-serial"
+description = "Serial ports of the devices over HaML: the port list, and one port shared by rig control and line keying."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true }
+serialport = { version = "4", default-features = false }
+zlog-core = { path = "../zlog-core" }

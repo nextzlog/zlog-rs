@@ -1,0 +1,8 @@
+title = 地図
+areas = {0} 地域
+unknown = (表にないコード {0})
+osm = © OpenStreetMap contributors
+background = 背景地図 (OSM)
+attribution = 出典: 国土交通省国土数値情報
+toolbar = 地図
+toolbar.tip = 交信した地域を地図上に表示

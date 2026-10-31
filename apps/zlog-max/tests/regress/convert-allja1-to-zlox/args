@@ -1,0 +1,3 @@
+convert
+{dir}/../logs/allja1.zlo
+{out}.zlox

@@ -1,0 +1,16 @@
+[package]
+name = "zlog-cty"
+description = "Settings > Update CTY.DAT: downloads AD1C's country file on request (or at start when enabled) for the DX contests."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-rule-dx = { path = "../zlog-rule-dx" }
+zlog-ui = { path = "../../core/zlog-ui" }

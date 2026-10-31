@@ -1,0 +1,6 @@
+title = シリアルポート一覧
+scanning = 検出中…
+none = シリアルポートはありません
+toolbar = ポート
+toolbar.tip = シリアルポート (COM ポート)
+simulator = 内蔵シミュレーター (リグ・WinKeyer・USBIF4CW・SO2R Neo・OTRSP)

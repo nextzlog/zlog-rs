@@ -1,0 +1,9 @@
+title = 交信を検索
+toolbar = 検索
+toolbar.tip = コールサイン・ナンバー・備考で交信を検索
+text = 検索する文字
+hint = コールサイン、受信ナンバー、備考
+next = 次へ
+previous = 前へ
+empty = 検索文字を入力 (Enter: 次、 Shift+Enter: 前)。
+count = {0} 件の交信が見つかりました

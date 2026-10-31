@@ -1,0 +1,6 @@
+summary
+{dir}/../logs/settings.toml
+{dir}/../logs/log.zlox
+{out}.cbr
+--contest
+allja

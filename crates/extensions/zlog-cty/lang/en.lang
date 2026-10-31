@@ -1,0 +1,15 @@
+command = Update CTY.DAT
+command.tip = Download the latest CTY.DAT from country-files.com
+options.title = CTY.DAT
+options.version = Installed version: {0}
+options.none = not installed
+options.last = Last check: {0}
+options.never = never
+options.auto = Check at start
+options.auto.tip = Connects to country-files.com each time zLog starts
+checking = Checking CTY.DAT…
+updated = CTY.DAT updated to {0}; used from the next contest opened
+current = CTY.DAT is up to date ({0})
+failed = CTY.DAT update failed: {0}
+invalid = the download is not a CTY.DAT file
+no_folder = no data folder

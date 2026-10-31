@@ -1,0 +1,13 @@
+[package]
+name = "zlog-form"
+description = "The entry in a window of its own: fields, function-key buttons and a status strip."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }

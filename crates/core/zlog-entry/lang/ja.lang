@@ -1,0 +1,16 @@
+title = zLog 標準 (ログ下に入力行)
+enter.next = Enter: {0}
+enter.options.title = 入力行
+enter.options.enter_sends = Enter でメッセージを送信する
+enter.options.enter_sends.tip = CQ: CQ → ナンバー → TU と記録。 S&P: 自局コール → ナンバーと記録。
+enter.options.dupe_sends = 重複局に交信済みメッセージを送る (オフ: 警告のみ)
+enter.power.p = P (QRP)
+enter.power.l = L (低)
+enter.power.m = M (中)
+enter.power.h = H (高)
+nav.next = 次: F{0} {1}
+nav.tip = 次に送る送信文。CQ: CQ、ナンバー、TU。S&P: 自局コール、ナンバー。
+nav.hide = 案内を隠す (オプション > 入力行で再び表示できる)
+nav.option = 入力行の横に次の送信文を表示する
+nav.option.tip = 交信で次に押す F キーを表示する
+fkeys = F1〜F12 のメッセージボタンを表示

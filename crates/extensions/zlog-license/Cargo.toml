@@ -1,0 +1,16 @@
+[package]
+name = "zlog-license"
+description = "License data of the callsign being typed, from the MIC radio station search (port of soumuAPI)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+percent-encoding = "2"
+serde_json = "1"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-ui = { path = "../../core/zlog-ui" }

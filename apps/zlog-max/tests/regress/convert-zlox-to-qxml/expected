@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<list xmlns:qxsl="qxsl.org">
+<item qxsl:time="2026-04-25T21:03:00+09:00" qxsl:band="7000" qxsl:mode="CW" qxsl:name="OP1" qxsl:mul1="13" qxsl:points="1" qxsl:newmult="true">
+<rcvd qxsl:call="JA1ZLO" qxsl:rstq="599" qxsl:code="13M"/>
+<sent qxsl:rstq="599" qxsl:code="10H"/>
+</item>
+<item qxsl:time="2026-04-25T21:10:00+09:00" qxsl:band="14000" qxsl:mode="SSB" qxsl:name="OP1" qxsl:note="テスト" qxsl:mul1="20" qxsl:points="1" qxsl:newmult="true">
+<rcvd qxsl:call="JA2AAA" qxsl:rstq="59" qxsl:code="20M"/>
+<sent qxsl:rstq="59" qxsl:code="10H"/>
+</item>
+<item qxsl:time="2026-04-25T21:30:00+09:00" qxsl:band="21000" qxsl:mode="CW" qxsl:name="OP2" qxsl:mul1="25" qxsl:points="1" qxsl:newmult="true">
+<rcvd qxsl:call="JA3BBB" qxsl:rstq="599" qxsl:code="25M"/>
+<sent qxsl:rstq="599" qxsl:code="10H"/>
+</item>
+<item qxsl:time="2026-04-25T21:50:00+09:00" qxsl:band="1200000" qxsl:mode="CW" qxsl:name="OP2" qxsl:points="0" qxsl:newmult="false">
+<rcvd qxsl:call="JA5EEE" qxsl:rstq="599" qxsl:code="12M"/>
+<sent qxsl:rstq="599" qxsl:code="10H"/>
+</item>
+<item qxsl:time="2026-04-25T22:00:00+09:00" qxsl:band="7000" qxsl:mode="CW" qxsl:name="OP1" qxsl:mul1="13" qxsl:points="0" qxsl:newmult="false">
+<rcvd qxsl:call="JA1ZLO" qxsl:rstq="599" qxsl:code="13M"/>
+<sent qxsl:rstq="599" qxsl:code="10H"/>
+</item>
+<item qxsl:time="2026-04-25T22:05:00+09:00" qxsl:band="430000" qxsl:mode="FM" qxsl:name="OP1" qxsl:points="0" qxsl:newmult="false">
+<rcvd qxsl:call="JH1CCC" qxsl:rstq="59" qxsl:code="10M"/>
+<sent qxsl:rstq="59" qxsl:code="10H"/>
+</item>
+<item qxsl:time="2026-04-26T06:15:00+09:00" qxsl:band="3500" qxsl:mode="SSB" qxsl:name="OP2" qxsl:note="QSL via bureau" qxsl:mul1="46" qxsl:points="1" qxsl:newmult="true">
+<rcvd qxsl:call="JR6DDD" qxsl:rstq="57" qxsl:code="46M"/>
+<sent qxsl:rstq="57" qxsl:code="10H"/>
+</item>
+</list>
