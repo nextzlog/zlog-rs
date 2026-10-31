@@ -1,0 +1,7 @@
+title = QSY インジケーター
+none = なし
+qsy_ok = QSY OK
+count = QSY# {0}
+tx = TX#{0}
+toolbar = QSY
+toolbar.tip = 次のバンド変更までの時間と、この 1 時間の変更回数

@@ -1,0 +1,127 @@
+{
+  "cfg": {
+    "sample-a": {
+      "url": "https://example.com/sample-a/sample-a.cfg",
+      "sum": "7cbe79dcdda139705668dd4d1759f7f1"
+    },
+    "sample-b": {
+      "url": "https://example.com/sample-b/sample-b.cfg",
+      "sum": "40d1177dc0d7cccb3e2e1b418253a226"
+    },
+    "sample-unstable": {
+      "url": "https://example.com/sample-unstable/sample-unstable.cfg",
+      "sum": "https://example.com/sample-unstable/sample-unstable.cfg.md5"
+    },
+    "drill": {
+      "url": "https://example.com/drill/drill.cfg",
+      "sum": "690920d2d2c4302274b47d4e4acadfd1"
+    },
+    "shared-in": {
+      "url": "https://example.com/shared/shared-in.cfg",
+      "sum": "4111b34e006e991411c727db3e9a537f"
+    },
+    "shared-out": {
+      "url": "https://example.com/shared/shared-out.cfg",
+      "sum": "71bd4309be04a57df14df7aac5ce29b7"
+    },
+    "unused": {
+      "url": "https://example.com/unused/unused.cfg"
+    }
+  },
+  "dll": {
+    "sample-a": {
+      "url": "https://example.com/sample-a/sample-a.dll",
+      "sum": "https://example.com/sample-a/sample-a.dll.md5"
+    },
+    "sample-unstable": {
+      "url": "https://example.com/sample-unstable/sample-unstable.dll",
+      "sum": "https://example.com/sample-unstable/sample-unstable.dll.md5"
+    },
+    "dll-only": {
+      "url": "https://example.com/dll-only/dll-only.dll",
+      "sum": "https://example.com/dll-only/dll-only.dll.md5"
+    }
+  },
+  "pkg": {
+    "sample-a": {
+      "tag": "Sample A",
+      "msg": "Rules and a scoring plugin for Sample A.",
+      "doc": "#### Install\n\n1. Open the plugin manager.\n2. Select this package and press Install.\n",
+      "web": "https://example.com/sample-a",
+      "use": [
+        "dll.sample-a",
+        "cfg.sample-a"
+      ],
+      "exp": "stable"
+    },
+    "sample-b": {
+      "tag": "Sample B",
+      "msg": "Rules for Sample B.",
+      "doc": "#### Install\n\n1. Open the plugin manager.\n2. Select this package and press Install.\n",
+      "web": "https://example.com/sample-b",
+      "use": [
+        "cfg.sample-b"
+      ],
+      "exp": "stable"
+    },
+    "sample-unstable": {
+      "tag": "Sample Unstable",
+      "msg": "An unfinished sample package.",
+      "doc": "https://example.com/sample-unstable/README.md",
+      "web": "https://example.com/sample-unstable",
+      "use": [
+        "dll.sample-unstable",
+        "cfg.sample-unstable"
+      ],
+      "exp": "unstable"
+    },
+    "dll-only": {
+      "tag": "DLL Only",
+      "msg": "A plugin without contest rules.",
+      "web": "https://example.com/dll-only",
+      "use": [
+        "dll.dll-only"
+      ],
+      "exp": "stable"
+    },
+    "drill": {
+      "tag": "Drill",
+      "msg": "Practice rules with a call list.",
+      "web": "https://example.com/drill",
+      "use": [
+        "cfg.drill",
+        "dat.drill",
+        "txt.drill"
+      ],
+      "exp": "stable"
+    },
+    "shared": {
+      "tag": "Shared Sections",
+      "msg": "Two rule sets that share one section table.",
+      "doc": "## Shared Sections\n\n#### Install\n\n1. Open the plugin manager.\n2. Select this package and press Install.\n",
+      "web": "https://example.com/shared",
+      "use": [
+        "dat.shared",
+        "cfg.shared-in",
+        "cfg.shared-out"
+      ],
+      "exp": "stable"
+    }
+  },
+  "dat": {
+    "drill": {
+      "url": "https://example.com/drill/drill.dat",
+      "sum": "67b327a83301a62dfcb3e0327c5a7ccd"
+    },
+    "shared": {
+      "url": "https://example.com/shared/shared.dat",
+      "sum": "36c21189180c49d1ded6cca825f6041f"
+    }
+  },
+  "txt": {
+    "drill": {
+      "url": "https://example.com/drill/calls.txt",
+      "sum": "691c56484a07f885db9c36790ec9c448"
+    }
+  }
+}

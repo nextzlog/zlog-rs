@@ -1,0 +1,16 @@
+[package]
+name = "zlog-check"
+description = "Check windows: call candidates (partial check, super check) and this station (call check, multi check)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[dev-dependencies]
+strsim = "0.11"

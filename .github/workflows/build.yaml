@@ -1,0 +1,69 @@
+name: build
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
+env:
+  NAME: zLog Max
+  APP: zlog-max
+  PROGRAM: zlog-max
+  TAG: nightly
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@stable
+      with:
+        components: clippy, rustfmt
+    - uses: Swatinem/rust-cache@v2
+      with:
+        key: test
+    - run: scripts/test.sh
+  build:
+    needs: test
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@stable
+      with:
+        targets: ${{ runner.os == 'macOS' && 'aarch64-apple-darwin, x86_64-apple-darwin' || '' }}
+    - uses: Swatinem/rust-cache@v2
+      with:
+        key: release
+    - uses: actions/cache@v4
+      with:
+        path: ~/.cargo/bin/cargo-about*
+        key: cargo-about-0.9.2-${{ runner.os }}-${{ runner.arch }}
+    - run: scripts/release.sh
+    - uses: actions/upload-artifact@v4
+      with:
+        name: assets-${{ runner.os }}
+        path: assets
+        if-no-files-found: error
+  publish:
+    needs: build
+    if: success() && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/download-artifact@v4
+      with:
+        pattern: assets-*
+        merge-multiple: true
+        path: assets
+    - run: scripts/publish.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,7 @@
+title = QSY indicator
+none = None
+qsy_ok = QSY OK
+count = QSY# {0}
+tx = TX#{0}
+toolbar = QSY
+toolbar.tip = Time to the next band change and changes this hour

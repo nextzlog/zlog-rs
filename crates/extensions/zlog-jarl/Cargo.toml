@@ -1,0 +1,18 @@
+[package]
+name = "zlog-jarl"
+description = "JARL's Web services: the E-Log submission on the JARL Web form and the member search (port of zLog's UJarlWebUpload and UJarlMemberInfo)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+encoding_rs = "0.8"
+url = "2"
+zlog-cfg = { path = "../zlog-cfg" }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-summary = { path = "../zlog-summary" }
+zlog-ui = { path = "../../core/zlog-ui" }

@@ -1,0 +1,6 @@
+title = Serial ports
+scanning = Scanning…
+none = No serial ports
+toolbar = Ports
+toolbar.tip = Serial (COM) ports
+simulator = Built-in simulator (rigs, WinKeyer, USBIF4CW, SO2R Neo, OTRSP)

@@ -1,0 +1,26 @@
+[package]
+name = "zlog-zylo"
+description = "ZyLO plugin support: zLog's plugin DLLs (and .dylib/.so builds of them), each run in a helper process of its own."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+dirs = "7"
+egui = "0.37"
+encoding_rs = "0.8"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-cfg = { path = "../zlog-cfg" }
+zlog-process = { path = "../../core/zlog-process" }
+zlog-ui = { path = "../../core/zlog-ui" }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_LibraryLoader", "Win32_UI_WindowsAndMessaging"] }
+
+[dev-dependencies]
+zlog-undo = { path = "../../core/zlog-undo" }

@@ -1,0 +1,13 @@
+[package]
+name = "zlog-guide"
+description = "A guide to a first contest: the steps from choosing the contest to exporting the log for HAMLOG, each running its command."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }

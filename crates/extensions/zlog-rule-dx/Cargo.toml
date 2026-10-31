@@ -1,0 +1,12 @@
+[package]
+name = "zlog-rule-dx"
+description = "International contests for zLog: CQ WW, CQ WPX, IARU HF, ARRL DX, WAEDC, IOTA, ARRL 10 m, All Asian, JIDX, AP Sprint, BARTG HF RTTY, DXpedition mode."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+dirs = "7"
+zlog-core = { path = "../../core/zlog-core" }

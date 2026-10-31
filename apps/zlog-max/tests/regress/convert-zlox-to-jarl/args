@@ -1,0 +1,7 @@
+convert
+{dir}/../logs/log.zlox
+{out}.txt
+--to
+JARL LOG (R2.1)
+--contest
+allja

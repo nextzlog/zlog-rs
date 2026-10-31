@@ -1,0 +1,13 @@
+[package]
+name = "zlog-style"
+description = "Light, dark or the system's theme for every window, chosen in Options."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

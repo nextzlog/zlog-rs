@@ -1,0 +1,3 @@
+convert
+{dir}/../logs/log.zlo
+{out}.zlox

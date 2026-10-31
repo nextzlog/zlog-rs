@@ -1,0 +1,13 @@
+[package]
+name = "zlog-table"
+description = "The log table of the main window: a presenter of the logged rows, their selection and column widths."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+egui_extras = "0.37"
+zlog-ui = { path = "../zlog-ui" }

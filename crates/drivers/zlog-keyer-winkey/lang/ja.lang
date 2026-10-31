@@ -1,0 +1,9 @@
+title = WinKeyer
+sidetone = サイドトーン
+sim.host = zLog との接続
+sim.wpm = 速度 (WPM)
+sim.ptt = PTT
+sim.sidetone = サイドトーン
+sim.sent = 送信済み
+sim.on = ON
+sim.off = OFF

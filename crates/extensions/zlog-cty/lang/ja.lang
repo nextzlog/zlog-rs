@@ -1,0 +1,15 @@
+command = CTY.DAT を更新
+command.tip = country-files.com から最新の CTY.DAT を取得
+options.title = CTY.DAT
+options.version = 導入済みの版: {0}
+options.none = 未導入
+options.last = 前回の確認: {0}
+options.never = なし
+options.auto = 起動時に確認
+options.auto.tip = 起動のたびに country-files.com に接続
+checking = CTY.DAT を確認中…
+updated = CTY.DAT を {0} に更新 (次に開くコンテストから)
+current = CTY.DAT は最新です ({0})
+failed = CTY.DAT を更新できません: {0}
+invalid = CTY.DAT ではありません
+no_folder = データフォルダーがありません

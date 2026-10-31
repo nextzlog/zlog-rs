@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["crates/*/*", "apps/*"]
+
+[workspace.package]
+version = "5.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/nextzlog/zmax"
+publish = false
+
+[workspace.dependencies]
+haml = { git = "https://github.com/nextzlog/haml", branch = "master", features = ["serial"] }
+rtty = { git = "https://github.com/nextzlog/rtty", branch = "master" }
+rtty-ui = { git = "https://github.com/nextzlog/rtty", branch = "master", default-features = false }
+ftxl = { git = "https://github.com/nextzlog/ftxl", branch = "master" }
+ftxl-ui = { git = "https://github.com/nextzlog/ftxl", branch = "master", default-features = false }
+rxsl = { git = "https://github.com/autodyne/rxsl", branch = "master" }

@@ -1,0 +1,13 @@
+title = Correct sent numbers
+menu = Correct sent numbers
+menu.tip = Set the sent number of many QSOs at once
+low = Up to 1200 MHz
+high = 2400 MHz and up
+band = QSOs
+all = All bands
+power_code = Add the power code of each band
+example = For example {0}: {1}
+count = {0} QSOs will change
+apply = Correct
+cancel = Cancel
+toolbar = Fix numbers

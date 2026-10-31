@@ -1,0 +1,52 @@
+<SUMMARYSHEET VERSION=R2.1>
+<CONTESTNAME>ALLJA1</CONTESTNAME>
+<CATEGORYCODE>SOSV</CATEGORYCODE>
+<CALLSIGN>JA1ZZZ</CALLSIGN>
+<OPCALLSIGN></OPCALLSIGN>
+<TOTALSCORE>440</TOTALSCORE>
+<ADDRESS>〒100-0000
+Tokyo Example 1-2-3
+</ADDRESS>
+<NAME>Taro Test</NAME>
+<TEL></TEL>
+<EMAIL>test@example.invalid</EMAIL>
+<POWER>100</POWER>
+<FDCOEFF>1</FDCOEFF>
+<OPPLACE></OPPLACE>
+<POWERSUPPLY></POWERSUPPLY>
+<AGE>70</AGE>
+<COMMENTS></COMMENTS>
+<MULTIOPLIST>OP1</MULTIOPLIST>
+<REGCLUBNUMBER></REGCLUBNUMBER>
+<OATH>私は、JARL制定のコンテスト規約および電波法令にしたがい運用した結果、ここに提出するサマリーシートおよびログシートなどが事実と相違ないものであることを、私の名誉において誓います。
+</OATH>
+<DATE>2014年6月2日</DATE>
+<SIGNATURE>Taro Test</SIGNATURE>
+</SUMMARYSHEET>
+<LOGSHEET TYPE="ZLOG_REIWA">
+DATE (JST) TIME   BAND MODE  CALLSIGN      SENTNo      RCVDNo      Mlt    Pts
+2014-06-01 09:32    14 SSB   JA1YAD        59          59  100110  100110   1
+2014-06-01 09:35    21 CW    JA1YWX        599         599 100105  100105   1
+2014-06-01 09:56    28 SSB   JA1YYE        59          59  13009   13009    1
+2014-06-01 10:02    50 AM    JA1YXP        59          59  134404  134404   1
+2014-06-01 10:27    21 SSB   JR1ZTT        59          59  1420    1420     1
+2014-06-01 10:51    21 SSB   JR1ZTT        59          59  1420    -        0
+2014-06-01 10:57    50 SSB   JA1ZLO        59          59  10      -        1
+2014-06-01 11:06    14 CW    JA7YCQ        599         599 06      06       1
+2014-06-01 11:09    50 SSB   JR1ZTT        59          59  1420    1420     1
+2014-06-01 11:12    21 SSB   JA3YKC        59          59  25      25       1
+2014-06-01 11:14    14 SSB   JA1YAD        59          59  100110  -        0
+2014-06-01 11:24    28 FM    JA3YDS        59          59  22      22       1
+2014-06-01 11:59    50 FM    JQ1ZLO        59          59  46      46       1
+2014-06-01 16:02   1.9 CW    JA1ZLO        599         599 100110  100110   1
+2014-06-01 16:07   3.5 CW    JA1YGX        599         599 100105  100105   1
+2014-06-01 16:29     7 SSB   JA1YCG        59          59  110109  110109   1
+2014-06-01 16:37     7 CW    JA1YDU        599         599 1216    1216     1
+2014-06-01 17:17     7 CW    JA1ZGP        599         599 1009    1009     1
+2014-06-01 17:23     7 CW    JA1ZLO        599         599 100110  100110   1
+2014-06-01 17:38     7 SSB   JA1YGX        59          59  100105  100105   1
+2014-06-01 18:47     7 CW    JA2YKA        599         599 20      20       1
+2014-06-01 20:33     7 SSB   JA1ZGP        59          59  1009    -        1
+2014-06-01 21:02     7 SSB   JA7YCQ        59          59  06      06       1
+2014-06-01 23:53     7 SSB   JA1YYE        59          59  13009   13009    1
+</LOGSHEET>

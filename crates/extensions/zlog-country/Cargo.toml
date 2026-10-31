@@ -1,0 +1,13 @@
+[package]
+name = "zlog-country"
+description = "Country, continent and zones of the callsign being typed, in the status bar (replaces the prefix plugin)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+zlog-core = { path = "../../core/zlog-core" }
+zlog-rule-dx = { path = "../zlog-rule-dx" }
+zlog-ui = { path = "../../core/zlog-ui" }

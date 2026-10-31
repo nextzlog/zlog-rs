@@ -1,0 +1,12 @@
+title = 紙ログの入力
+field.date = 日付
+field.time = 時刻
+field.call = コールサイン
+field.rst_sent = 送 RST
+field.rst_rcvd = 受 RST
+field.number = ナンバー
+field.band = バンド
+field.mode = モード
+field.memo = メモ
+logged = 記録しました #{0}: {1} {2} {3} {4} {5}
+help = Enter で記録; + か Ctrl+↑ / Ctrl+↓ で 1 分; 時刻欄に 2 桁で分だけ; Shift+B / Alt+M でバンド, モード (Ctrl+Shift+B / Ctrl+Shift+M で戻る); Alt+D / Alt+C で日付, コールサイン

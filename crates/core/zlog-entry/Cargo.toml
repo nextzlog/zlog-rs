@@ -1,0 +1,13 @@
+[package]
+name = "zlog-entry"
+description = "The entry row of zLog under the log, with zLog's keys."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

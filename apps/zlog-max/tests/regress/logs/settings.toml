@@ -1,0 +1,20 @@
+[station]
+callsign = "JA1ZZZ"
+operator = "OP1"
+
+[preferences]
+use_contest_period = false
+
+["panel.summary"]
+"elog.Version" = "0"
+"elog.CategoryCode" = "XMAH"
+"elog.CategoryName" = "Multi op all bands"
+"elog.OperatorName" = "Taro Test"
+"elog.Address" = "〒100-0000\\nTokyo Example 1-2-3"
+"elog.EMail" = "test@example.invalid"
+"elog.Power" = "100"
+"elog.Signature" = "Taro Test"
+"cabrillo.CONTEST" = "JA-TEST"
+"cabrillo.CATEGORY-OPERATOR" = "MULTI-OP"
+"cabrillo.NAME" = "Taro Test"
+"cabrillo.TimeZone" = "9"

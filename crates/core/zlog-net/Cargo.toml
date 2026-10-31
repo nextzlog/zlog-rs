@@ -1,0 +1,22 @@
+[package]
+name = "zlog-net"
+description = "Background HTTP fetches and form submissions for extensions, so the window never waits on the network."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+cookie_store = { version = "0.22", default-features = false }
+encoding_rs = "0.8"
+form_urlencoded = "1"
+httpdate = "1"
+html5gum = "0.8"
+ureq = "3"
+zlog-core = { path = "../zlog-core" }
+url = "2"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"

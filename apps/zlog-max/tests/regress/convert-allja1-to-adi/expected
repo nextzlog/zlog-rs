@@ -1,0 +1,27 @@
+ADIF export from zLog for Windows
+All times in UTC
+<eoh>
+<qso_date:8>20140601<time_on:4>0032<time_off:4>0032<call:6>JA1YAD<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:6>100110<band:3>20m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0035<time_off:4>0035<call:6>JA1YWX<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:6>100105<band:3>15m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0056<time_off:4>0056<call:6>JA1YYE<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:5>13009<band:3>10m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0102<time_off:4>0102<call:6>JA1YXP<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:6>134404<band:2>6m<mode:2>AM<eor>
+<qso_date:8>20140601<time_on:4>0127<time_off:4>0127<call:6>JR1ZTT<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:4>1420<band:3>15m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0151<time_off:4>0151<call:6>JR1ZTT<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:4>1420<band:3>15m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0157<time_off:4>0157<call:6>JA1ZLO<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:2>10<band:2>6m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0206<time_off:4>0206<call:6>JA7YCQ<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:2>06<band:3>20m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0209<time_off:4>0209<call:6>JR1ZTT<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:4>1420<band:2>6m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0212<time_off:4>0212<call:6>JA3YKC<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:2>25<band:3>15m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0214<time_off:4>0214<call:6>JA1YAD<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:6>100110<band:3>20m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0224<time_off:4>0224<call:6>JA3YDS<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:2>22<band:3>10m<mode:2>FM<eor>
+<qso_date:8>20140601<time_on:4>0259<time_off:4>0259<call:6>JQ1ZLO<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:2>46<band:2>6m<mode:2>FM<eor>
+<qso_date:8>20140601<time_on:4>0702<time_off:4>0702<call:6>JA1ZLO<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:6>100110<band:4>160m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0707<time_off:4>0707<call:6>JA1YGX<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:6>100105<band:3>80m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0729<time_off:4>0729<call:6>JA1YCG<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:6>110109<band:3>40m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0737<time_off:4>0737<call:6>JA1YDU<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:4>1216<band:3>40m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0817<time_off:4>0817<call:6>JA1ZGP<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:4>1009<band:3>40m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0823<time_off:4>0823<call:6>JA1ZLO<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:6>100110<band:3>40m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>0838<time_off:4>0838<call:6>JA1YGX<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:6>100105<band:3>40m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>0947<time_off:4>0947<call:6>JA2YKA<rst_sent:3>599<stx_string:0><rst_rcvd:3>599<srx_string:2>20<band:3>40m<mode:2>CW<eor>
+<qso_date:8>20140601<time_on:4>1133<time_off:4>1133<call:6>JA1ZGP<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:4>1009<band:3>40m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>1202<time_off:4>1202<call:6>JA7YCQ<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:2>06<band:3>40m<mode:3>SSB<eor>
+<qso_date:8>20140601<time_on:4>1453<time_off:4>1453<call:6>JA1YYE<rst_sent:2>59<stx_string:0><rst_rcvd:2>59<srx_string:5>13009<band:3>40m<mode:3>SSB<eor>

@@ -1,0 +1,7 @@
+neo = SO2R Neo
+neo_keyer = キーヤーのポートの SO2R Neo
+port = ポート
+simulator = シミュレーター
+af_blend = AF ブレンド
+off = OFF
+no_keyer = WinKeyer のポートが開いていません。開くと SO2R Neo に伝えます

@@ -1,0 +1,15 @@
+[package]
+name = "zlog-so2r-otrsp"
+description = "The OTRSP SO2R box: TX and RX lines on a port of its own."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+haml = { workspace = true, features = ["hid", "remote"] }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-serial = { path = "../../core/zlog-serial" }
+zlog-so2r = { path = "../zlog-so2r" }
+zlog-ui = { path = "../../core/zlog-ui" }

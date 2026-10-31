@@ -1,0 +1,4 @@
+title = zLog market
+sum_mismatch = {0} differs from the market listing; not saved
+no_sum = no checksum: installed without an update check
+sum_unknown = checksum of {0} unreadable; not saved

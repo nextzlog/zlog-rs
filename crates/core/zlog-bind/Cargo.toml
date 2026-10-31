@@ -1,0 +1,13 @@
+[package]
+name = "zlog-bind"
+description = "Shortcuts and toolbar: tabs of Options assigning a key to every menu command and choosing the toolbar buttons."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }

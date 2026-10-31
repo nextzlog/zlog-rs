@@ -1,0 +1,10 @@
+title = 免許を照会
+look_up = 免許情報を調べる
+none = 該当する局はありません
+class.fixed = 固定
+class.mobile = 移動
+class.amateur = {0}アマ{1}
+mic.name = 総務省 電波利用ホームページ Web-API
+mic.notice = このサービスは、総務省 電波利用ホームページの Web-API 機能を利用して取得した情報をもとに作成していますが、サービスの内容は総務省によって保証されたものではありません。
+toolbar = 免許
+toolbar.tip = 総務省の無線局等情報でコールサインを検索

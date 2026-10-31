@@ -1,0 +1,5 @@
+convert
+{dir}/../logs/log.zlox
+{out}.all
+--contest
+allja

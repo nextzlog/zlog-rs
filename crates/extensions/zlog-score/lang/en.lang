@@ -1,0 +1,11 @@
+score.title = Score
+multi.title = Multipliers
+score.tooltip = QSOs, points and multipliers by band
+multi.tooltip = Multipliers worked and still needed, by band
+head.mhz = MHz
+head.qsos = QSOs
+head.points = Points
+head.multi = Multi
+head.total = Total
+head.score = Score
+search = Go

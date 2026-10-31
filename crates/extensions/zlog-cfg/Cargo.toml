@@ -1,0 +1,25 @@
+[package]
+name = "zlog-cfg"
+description = "zLog's user-defined contests: CFG files and their DAT multiplier lists, for contests of any country, and the window that manages them."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[features]
+window = ["dep:chrono", "dep:dirs", "dep:egui", "dep:zlog-ui", "dep:zlog-net", "dep:tempfile"]
+
+[dependencies]
+zlog-core = { path = "../../core/zlog-core" }
+zlog-rule-dx = { path = "../zlog-rule-dx" }
+encoding_rs = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+zlog-process = { path = "../../core/zlog-process" }
+chrono = { version = "0.4", optional = true }
+dirs = { version = "7", optional = true }
+egui = { version = "0.37", optional = true }
+zlog-ui = { path = "../../core/zlog-ui", optional = true }
+zlog-net = { path = "../../core/zlog-net", optional = true }
+tempfile = { version = "3", optional = true }

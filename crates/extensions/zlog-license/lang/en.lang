@@ -1,0 +1,10 @@
+title = Look up license
+look_up = Look up license
+none = No station found
+class.fixed = fixed
+class.mobile = mobile
+class.amateur = Amateur class {0}, {1}
+mic.name = MIC Radio Use Website Web-API
+mic.notice = このサービスは、総務省 電波利用ホームページのWeb-API機能を利用して取得した情報をもとに作成していますが、サービスの内容は総務省によって保証されたものではありません。
+toolbar = License
+toolbar.tip = Look up the callsign in MIC license data

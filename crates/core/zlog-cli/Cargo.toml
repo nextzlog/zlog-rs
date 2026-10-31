@@ -1,0 +1,17 @@
+[package]
+name = "zlog-cli"
+description = "Command-line front end for zLog."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zlog-cli"
+path = "src/main.rs"
+
+[dependencies]
+zlog-core = { path = "../zlog-core" }
+zlog-rule = { path = "../zlog-rule" }
+clap = { version = "4", default-features = false, features = ["std", "derive", "help", "usage", "error-context"] }

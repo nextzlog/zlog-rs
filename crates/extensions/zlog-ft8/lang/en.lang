@@ -1,0 +1,10 @@
+title = FT8 / FT4
+toolbar = FT8 / FT4
+toolbar.tip = Band activity of FT8 and FT4, with standard messages and auto-sequencing into the log
+modem = modem
+device = Audio
+none = None
+no_device = Choose an audio device in Options
+wav.kind = WAV audio
+scope = Band scope
+scope.tip = Shows the stations heard in the band scope, at the rig frequency plus the audio offset

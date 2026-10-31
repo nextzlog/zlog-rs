@@ -1,0 +1,12 @@
+[package]
+name = "zlog-menu"
+description = "The menu bar drawn in the main window with egui: a presenter of the application's menus."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-ui = { path = "../zlog-ui" }

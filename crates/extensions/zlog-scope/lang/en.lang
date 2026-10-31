@@ -1,0 +1,15 @@
+title = Band scope
+entry_band = Entry band
+all_bands = All bands
+memorise = Memo
+count = {0} stations
+expire = Expire
+spotter = Spotted by
+delete = Delete
+toolbar = Scope
+toolbar.tip = Band scope of spots around the frequency
+memorise.tip = Memorise the entered station at the rig frequency
+frequency = Frequency (kHz)
+ok = OK
+cancel = Cancel
+source = Source

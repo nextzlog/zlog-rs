@@ -1,0 +1,10 @@
+title = FT8 / FT4
+toolbar = FT8 / FT4
+toolbar.tip = FT8 と FT4 のバンド状況、定型メッセージ、自動シーケンスによる交信のログ記録
+modem = モデム
+device = 音声
+none = なし
+no_device = オプションで音声デバイスを選んでください
+wav.kind = WAV 音声
+scope = バンドスコープ
+scope.tip = 受信した局をリグ周波数と音声周波数から求めた周波数でバンドスコープに表示

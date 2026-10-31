@@ -1,0 +1,14 @@
+[package]
+name = "zlog-es"
+description = "Sporadic-E status from NICT ionosondes in a window (port of the infoEs plugin)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-ui = { path = "../../core/zlog-ui" }

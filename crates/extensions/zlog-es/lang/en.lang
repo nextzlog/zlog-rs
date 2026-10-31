@@ -1,0 +1,13 @@
+title = Sporadic E
+refresh = Refresh
+head.station = Station
+head.es = Es
+head.latest = Latest Es
+head.fxes = fxEs
+signal.ongoing = ongoing
+signal.likely = likely
+signal.quiet = none
+credit = Data: NICT ionosondes (automatic, may err)
+toolbar = Es
+toolbar.tip = Sporadic E reports
+unreadable = Could not read the NICT page (layout may have changed)

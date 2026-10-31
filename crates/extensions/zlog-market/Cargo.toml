@@ -1,0 +1,19 @@
+[package]
+name = "zlog-market"
+description = "The zLog market (use.zlog.org) of user-defined contest files, searched in the user-defined contest window with checksum-based update checks."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = "0.4"
+dirs = "7"
+hex = "0.4"
+md-5 = "0.10"
+serde_json = "1"
+zlog-cfg = { path = "../zlog-cfg" }
+zlog-core = { path = "../../core/zlog-core" }
+zlog-net = { path = "../../core/zlog-net" }
+zlog-ui = { path = "../../core/zlog-ui" }

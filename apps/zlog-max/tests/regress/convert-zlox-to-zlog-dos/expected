@@ -1,0 +1,8 @@
+mon day time  callsign      sent         rcvd      multi   MHz mode pts memo
+  4  25 2103 JA1ZLO     59910H       59913M           13     7  CW  1   %%OP1%%  (7003.5) 
+  4  25 2110 JA2AAA      5910H        5920M           20    14  SSB 1   %%OP1%%  (14250.0) ƒeƒXƒg
+  4  25 2130 JA3BBB     59910H       59925M           25    21  CW  1   %%OP2%%  
+  4  25 2150 JA5EEE     59910H       59912M               1200  CW  0   %%OP2%%  
+  4  25 2200 JA1ZLO     59910H       59913M                  7  CW  0   %%OP1%%  -DUPE- 
+  4  25 2205 JH1CCC      5910H        5910M                430  FM  0   %%OP1%%  (433020.0) 
+  4  26 0615 JR6DDD      5710H        5746M           46   3.5  SSB 1   %%OP2%%  QSL via bureau

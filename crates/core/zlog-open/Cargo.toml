@@ -1,0 +1,17 @@
+[package]
+name = "zlog-open"
+description = "The zLog Menu shown at start: contest menu, recent contests, mode, power, station and log file, or everyday logging."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+dirs = "7"
+egui = "0.37"
+zlog-core = { path = "../zlog-core" }
+zlog-ui = { path = "../zlog-ui" }
+
+[dev-dependencies]
+zlog-rule = { path = "../zlog-rule" }

@@ -1,0 +1,13 @@
+[package]
+name = "zlog-after"
+description = "The entry for typing a paper log after the contest: date, time, sticky band and mode."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+egui = "0.37"
+zlog-core = { path = "../../core/zlog-core" }
+zlog-ui = { path = "../../core/zlog-ui" }
